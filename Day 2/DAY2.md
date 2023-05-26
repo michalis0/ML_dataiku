@@ -1,14 +1,57 @@
 ### **Day 2: Regression and Classification**
 
 ----
-### **Step 1: Launch Dataiku:**
+### **Step 0: Initialization:**
+-----------------------------------
+
+Today we are going to train machine learning models ! To do so we need to go back on DataIku and create the necessary projects. 
+
+Go back to the root of the project and create two new projects: 
+
+1. First project named: regression
+- a. Click on "NEW PROJECT" - "Blank project" and name it "regression"
+- b. Import the dataset from this link:  (this is the cleaned version of the dataset we used yesterday)
+
+
+----
+### **Step 1: Regression:**
 -----------------------------------
 
 Please follow this link: https://www.dataiku.com/. Once the account is created, please create a new project by clicking on the "New Project" button - "Blank Project". Enter the name "Day 1: Data Cleaning: Survey of Labour and Income Dynamics" and specify the location where you want to save the project.
 
------
-### **Step 2: Import a dataset:**
+### **Step 2: Classification:**
 -----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+-----
+### **Step 2: Classification:**
+-----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+### **Step 2: Classification:**
+-----------------------------------
+
+----
+### **Step 3: Quick, Draw (image recognition AI ):**
+-----------------------------------
+
+**What is Quick draw ?** Quick Draw is an online game where you draw pictures and a computer tries to guess what you're drawing. You have a limited time to sketch, and the computer uses artificial intelligence to recognize and guess the object you're trying to depict. It's a fun way to test your drawing skills and see how well the computer can understand your creations!
+Follow this link to test it ! https://quickdraw.withgoogle.com/ 
+
+
 
 Within the newly created project, you can import the dataset by following these steps:
 - a. First download the dataset we will be using for this project. You can find the dataset of this first day under this link: https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/Income_dataset.csv and click on the download button "Download raw file".
