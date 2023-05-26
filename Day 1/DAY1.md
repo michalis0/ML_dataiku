@@ -1,3 +1,16 @@
+
+Day 1: 
+
+import the three datasets 
+- Salary      
+- sentiment analysis
+- Clustering
+
+-> presentation to show what happens if we don't clean
+
+
+
+
 ### **Day 1 Data Cleaning**
 
 
