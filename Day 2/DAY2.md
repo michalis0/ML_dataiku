@@ -10,8 +10,8 @@ Go back to the root of the project and create two new projects:
 
 1. First project named: regression
 - a. Click on "NEW PROJECT" - "Blank project" and name it "regression"
-- b. Import the dataset from this link:  (this is the cleaned version of the dataset we used yesterday)
-
+- b. Import the dataset from this link: https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/dataset_1_cleaned.csv  (this is the cleaned version of the dataset we used yesterday)
+- c. Once the dataset is imported go back to the "flow" screen
 
 ----
 ### **Step 1: Regression:**

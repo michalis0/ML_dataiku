@@ -13,26 +13,20 @@ The goal of this Github is to show the...
 
 ----------------------
 ### **Day 1 Data Cleaning**
-Project is created with:
-Project is created with:
 
 ----------------------
 ### **Day 2 Regression Classification**
-Project is created with:
-Project is created with:
 
 ----------------------
 ### **Day 3 Text Analytics Neural Networks**
-Project is created with:
-Project is created with:
 
 ----------------------
 ### **Day 4 Clustering Graph Analytics**
-Project is created with:
-Project is created with:
 
 ----------------------
 ### **Day 5 Generative AI**
-Project is created with:
-Project is created with:
 
+
+TODO Alexis: 
+- Day 1: Add categorical (language, gender...) (also in dataset for the rest of the project)
+- Day 1: Scatter plot as visualization 
