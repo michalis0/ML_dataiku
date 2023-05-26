@@ -1,5 +1,5 @@
 ### **Day 1: Data Cleaning**
----
+
 ----
 ### **Step 1: Launch Dataiku:**
 -----------------------------------
@@ -25,7 +25,6 @@ Within the newly created project, you can import the dataset by following these 
 **Check**: You dataset should have 1'000 rows and 6 columns. 
 
 -----
-
 ### **Step 3: Data Cleaning:**
 -----------------------------------
 
@@ -44,7 +43,7 @@ Now let's clean the data ! We will perform the steps below in order to have a pe
 
 After importing the dataset, click on teh tab menu "Day 1: Data Cleaning: Survey...", this will show a dashboard, you can now click on "Go to Flow". The "flow" refers to a visual interface that allows users to create and manage data pipelines, workflows, and transformations for data preparation, analysis, and machine learning tasks. You can now select the tab "RECIPE" and select "Visual" and click on "Data Preparation". Now on the popup, select the "income dataset" and click on "CREATE RECIPE". This creates a space where you can perform data cleaning techniques. Lets start cleaning ! 
     
----- 
+
 #### **Step 3.1: Handling Missing Values:Green**
 -----------------------------------
 - **What:** Identify and handle missing values in your dataset. This can be done by deleting rows or columns with a large number of missing values. 
@@ -81,7 +80,7 @@ After importing the dataset, click on teh tab menu "Day 1: Data Cleaning: Survey
     - Go back to the "flow" screen and click on the last dataset "cleaned_dataset"
 - **Expected:** How many rows are in your dataset (Expected: 527)
 
-
+---
 ### **Step 4: Data Visualization:**
 -----------------------------------
 
@@ -91,8 +90,8 @@ We will now focus on Data Visualization, which is used to visually represent dat
 - Plot 3: Plot Income by Age Group
 - Plot 4: Plot Income by Gender
 
-
-#### **Step 4.1: Plot Income Distribution by Education Level
+---
+#### **Step 4.1:** Plot Income Distribution by Education Level
 
 - **What:** Visualize a histogram or box plot showing the distribution of income across different education levels, highlighting any disparities or trends.
 
@@ -103,8 +102,8 @@ We will now focus on Data Visualization, which is used to visually represent dat
     - Now please select "RECIPE" and select "visual" and click on "group". In the popup select the "Income_dataset_prepared" and group by "wages". Now rename the dataset as "cleaned_dataset" and select the format "CSV". 
     - Now add all the keys "Select key to add" except the "ID" column. Then click on "RUN" (it is okay to have warnings)
     - Go back to the "flow" screen and click on the last dataset "cleaned_dataset". Then click on "PUBLISH" and create. This will create a Dashboard with all the plots. 
-    - Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to test different graphs)
-
+    
+Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to test different graphs)
 
 ### **Step 5: Export the dataset:**
 -----------------------------------
