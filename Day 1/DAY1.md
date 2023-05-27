@@ -1,12 +1,47 @@
-### **Day 1: Data Cleaning**
+# Day 1 Data Cleaning and Visualization
 
-----
+image
+
+## Table of contents 
+* [Step 1 Launch DataIku](#step-1-launch-dataiku)
+* [Step 2 Import the dataset](#step-2-import-the-dataset)
+* [Step 3 Data Cleaning](#step-3-data-cleaning)
+* [Step 4 Data Visualization](#step-4-data-visualization)
+* [Step 5 Export the dataset](#step-5-export-the-dataset)
+* [Step 6 Preparing for tomorrow](#step-6-preparing-for-tomorrow)
+
+
+-----------------------------------
+### **Step 2: Import the dataset:**
+-----------------------------------
+-----------------------------------
+### **Step 3: Data Cleaning:**
+-----------------------------------
+-----------------------------------
+### **Step 4: Data Visualization:**
+-----------------------------------
+-----------------------------------
+### **Step 5: Export the dataset:**
+-----------------------------------
+-----------------------------------
+### **Step 6: Preparing for tomorrow:**
+-----------------------------------
+
+-----------------------------------
 ### **Step 1: Launch Dataiku:**
 -----------------------------------
 
-Please follow this link: https://www.dataiku.com/. Once the account is created, please create a new project by clicking on the "New Project" button - "Blank Project". Enter the name "Day 1: Data Cleaning: Survey of Labour and Income Dynamics" and specify the location where you want to save the project.
+Please follow this link: https://www.dataiku.com/ and create an account.
 
------
+Once the account is created, please create a new project, this is done by:
+- Clicking on the "New Project" button - "Blank Project"
+- Entering the name "Regression: Customer Analytics Dataset" 
+- Click on "CREATE"
+
+You just created your first project ! It should look like this: 
+
+
+-----------------------------------
 ### **Step 2: Import a dataset:**
 -----------------------------------
 
