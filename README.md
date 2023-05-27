@@ -1,6 +1,6 @@
 # Dataiku tutorial for Machine Learning:
 
-image: 
+<img width="905" alt="course overview" src="https://github.com/michalis0/ML_dataiku/assets/43532600/8b82138b-5cf2-41bd-bfd9-288c6341c02a">
 
 ## Table of contents 
 * [Day 1 Data Cleaning and Visualization](#day-1-data-cleaning-and-visualization)
