@@ -1,5 +1,17 @@
 ### **Day 2: Regression and Classification**
 
+### **Step 2: Classification:**
+-----------------------------------
+To perform classification, click on the lab tab and click on AutoML prediction. Please select the "feedbck", which corresponds to the target variable. 
+
+Please go in the predict tab and make sure the the labels are equal size
+Then have a loo at the train test and change the ratio to 0.6
+Then select three algoithms, i.e: Random forest, Gradient tree boosting, logistic regression what is the accuracy
+Repeat the process for 0.6
+now try deep neural network 
+
+
+
 ----
 ### **Step 0: Initialization:**
 -----------------------------------
@@ -151,3 +163,21 @@ Do the same for the other plots ! (you can try scatter plots, pie charts, feel f
 ### **Step 5: Export the dataset:**
 -----------------------------------
 To export the dataset, go back to the "flow" and click on "cleaned_dataset" then click on "ACTION" and select "Export". 
+
+
+
+
+
+### Preparation for tomorrow: 
+
+### Text Analytics : 
+
+In order to perform our NLP task (text analytics) task we also need to clean the dataset that we will be using. The dataset that we have chosen is "Amazon Alexa", link to the dataset can be found here: https://www.kaggle.com/datasets/dipeshkhemani/airbnb-cleaned-europe-dataset. 
+
+Here we are trying to predict the Room type, either private or entire home / apartment. The data cleaning has been done for you and you can find the cleaned dataset under this link: https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/Cleaned/airbnb_dataset_prepared.csv
+In order to cleaned the dataset: 
+- We deleted the "date", "rating", "variation" and only kept "verified_review" and "feedback". 
+- we need to tokenize the text
+- Appply stemming, remove stopwords 
+
+**TASK:** Please import the dataset in a new project called "Classification" and create a few graph to understand the data. 

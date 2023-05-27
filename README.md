@@ -1,9 +1,9 @@
 # Dataiku tutorial for Machine Learning:
 
-The goal of this Github is to show the...
+image: 
 
-## Table of contents
-* [Day 1 Data Cleaning](#day-1-data-cleaning)
+## Table of contents 
+* [Day 1 Data Cleaning and Visualization](#day-1-data-cleaning-and-visualization)
 * [Day 2 Regression Classification](#day-2-regression-classification)
 * [Day 3 Text Analytics Neural Networks](#day-3-text-analytics-neural-networks)
 * [Day 4 Clustering Graph Analytics](#day-4-clustering-graph-analytics)
@@ -11,8 +11,27 @@ The goal of this Github is to show the...
 
 
 
-----------------------
-### **Day 1 Data Cleaning**
+----------------------------
+### **Day 1 Data Cleaning and Visualization**
+----------------------------
+
+**Goal:** Data Cleaning and Visualization
+
+**Key Takeways are to understand**:
+- the dataset structure 
+- datasets that we will use (and why)
+- importance of cleaning
+- visualization to understand data
+- impact of not cleaning 
+
+**The process**:
+- 1. Presentation of the 5 datasets (regression, classification, NLP, clustering, chatbots)
+- 2. Data cleaning techniques
+- 3. Visualization
+- 4. Importance of cleaning 
+
+*Link to the project folder:*
+
 
 ----------------------
 ### **Day 2 Regression Classification**
