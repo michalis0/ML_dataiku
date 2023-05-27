@@ -108,3 +108,13 @@ Do the same for the other plots ! (you can try scatter plots, pie charts, feel f
 ### **Step 5: Export the dataset:**
 -----------------------------------
 To export the dataset, go back to the "flow" and click on "cleaned_dataset" then click on "ACTION" and select "Export". 
+
+### Preparation for tomorrow: 
+
+### Classification : 
+
+In order to perform our classification task we also need to clean the dataset that we will be using. The dataset that we have chosen is "Airbnb Cleaned Europe Dataset", link to the dataset can be found here: https://www.kaggle.com/datasets/dipeshkhemani/airbnb-cleaned-europe-dataset. Here we are trying to predict the Room type, either private or entire home / apartment. The data cleaning has been done for you and you can find the cleaned dataset under this link: 
+Please import the dataset in a new project called "Classification" and create a few graph to understand the data. 
+
+
+
