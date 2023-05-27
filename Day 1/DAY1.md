@@ -38,7 +38,7 @@ Once the account is created, please create a new project, this is done by:
 - Entering the name "Regression: Customer Analytics Dataset" 
 - Click on "CREATE"
 
-You just created your first project ! It should look like this: 
+You just created your first project ! It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_1_init.png ).
 
 
 -----------------------------------
