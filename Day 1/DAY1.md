@@ -148,7 +148,7 @@ We will now focus on Data Visualization, which is used to visually represent dat
     - Click on "PUBLISH" then "CREATE", this creates a Dashboard (which is also accessible from the project root)
 
     
-Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to test different graphs) (Your dashboard should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean.png))
+Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to test different graphs) (Your dashboard should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_4_dashboard.png))
 
 
 ### **Step 5: Export the dataset:**
