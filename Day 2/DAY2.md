@@ -1,38 +1,25 @@
 ### **Day 2: Regression and Classification**
 
+-------
+### **Step 0: Initialisation:**
+-------
 *Disclaimer: Please make sure to have completed the tasks done yesterday*
 
 You should now have 4 projects created, today we will essentially be using two of them: Regression and Classification. 
 
+-----------------------------------
 ### **Step 1: Regression:**
 -----------------------------------
 
 - a. Please select your project: "Classification"
 - b. To perform classification, click on the "lab" tab and click on "AutoML prediction". Please select the "------", which corresponds to the target variable.
-- c. This is the space where we will be training the Machine Learning model ! Have a look at the "train / test" tab, we will be performing a few operations. 
-and change the ratio to 0.6
-Then select three algoithms, i.e: Random forest, Gradient tree boosting, logistic regression what is the accuracy
-Repeat the process for 0.6
-now try deep neural network 
+- c. This is the space where we will be training the Machine Learning model ! please select the first model that we will use: Logistic Regression. Have a look at the "train / test" tab, we will be performing a few operations. 
+- d. The train / test ratio can have a lot of impact on the accuracy of the model, let's see that in practice. Begin by training the model on a ratio of 0.6 (for the training set) have a look at the accuracy (should expect ---). Then do the same with a ratio of 0.8 (for the training set) have a look at the accuracy (should expect ---).
+- e. Now compare the accuracy with other models, test some of then to find the best accuracy (you can also select some huperparameters). The best accuracy should be given by the model:--- with the hyperparameters: ----.
 
-
-
-----
-### **Step 0: Initialization:**
------------------------------------
-
-Today we are going to train machine learning models ! To do so we need to go back on DataIku and create the necessary projects. 
-
-Go back to the root of the project and create two new projects: 
-
-1. First project named: regression
-- a. Click on "NEW PROJECT" - "Blank project" and name it "regression"
-- b. Import the dataset from this link: https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/dataset_1_cleaned.csv  (this is the cleaned version of the dataset we used yesterday)
-- c. Once the dataset is imported go back to the "flow" screen
-
-----
-### **Step 1: Regression:**
------------------------------------
+------
+### **Step 2: Classification:**
+----------------------------------
 
 Please follow this link: https://www.dataiku.com/. Once the account is created, please create a new project by clicking on the "New Project" button - "Blank Project". Enter the name "Day 1: Data Cleaning: Survey of Labour and Income Dynamics" and specify the location where you want to save the project.
 
