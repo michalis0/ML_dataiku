@@ -11,22 +11,49 @@ You should now have 4 projects created, today we will essentially be using two o
 ### **Step 1: Regression:**
 -----------------------------------
 
-- a. Please select your project: "Regression"
-- b. To perform regression, click on the "lab" tab and click on "AutoML prediction". Please select the "------", which corresponds to the target variable.
-- c. This is the space where we will be training the Machine Learning model ! please select the first model that we will use: Logistic Regression. Have a look at the "train / test" tab, we will be performing a few operations. 
-- d. The train / test ratio can have a lot of impact on the accuracy of the model, let's see that in practice. Begin by training the model on a ratio of 0.6 (for the training set) have a look at the accuracy (should expect ---). Then do the same with a ratio of 0.8 (for the training set) have a look at the accuracy (should expect ---).
-- e. Now compare the accuracy with other models, test some of then to find the best accuracy (you can also select some huperparameters). The best accuracy should be given by the model:--- with the hyperparameters: ----.
+- a. Please select your project: "Regression: Customer Analytics Dataset"
+- b. To perform regression, select the dataset and click on the "lab" tab and click on "AutoML prediction". Please select the "target_revenue" which corresponds to the target variable. Now please select "Quick Prototypes" and press "CREATE".
+- c.This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. please select the first model that we will use: Logistic Regression. Therefore, click on "DESIGN". We can see a few tabs:
+    -  **Target:** We model the problem as a Regression and our target variable is "target_revenue"
+    - **Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
+    - **Metric:** In our case, we are interested in the R2 Score
+    - **Modeling:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
+
+Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". What is the accuracy ? (expected: , this should look like this)
+    
+- d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? 
+
+- e. Now have try different algorithms:
+    - Use the train ratio 0.8 and the Algorithm: Random Forest: What is the accuracy ? (expected: , this should look like this)
+    - Use the train ratio 0.8 and the Algorithm: KNN: What is the accuracy ? (expected: , this should look like this)
+    - Use the train ratio 0.8 and the Algorithm: Deep Neural Network: What is the accuracy ? (expected: , this should look like this)
+- f. Test the model with new data ! 
+    - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so click on "Quick Modeling ..." and click on "DEPLOY SCRIPT". 
 
 
 -----------------------------------
 ### **Step 2: Classification:**
 -----------------------------------
 
-- a. Please select your project: "Classification"
-- b. To perform classification, click on the "lab" tab and click on "AutoML prediction". Please select the "------", which corresponds to the target variable.
-- c. This is the space where we will be training the Machine Learning model ! please select the first model that we will use: Logistic Regression. Have a look at the "train / test" tab, we will be performing a few operations. 
-- d. The train / test ratio can have a lot of impact on the accuracy of the model, let's see that in practice. Begin by training the model on a ratio of 0.6 (for the training set) have a look at the accuracy (should expect ---). Then do the same with a ratio of 0.8 (for the training set) have a look at the accuracy (should expect ---).
-- e. Now compare the accuracy with other models, test some of then to find the best accuracy (you can also select some huperparameters). The best accuracy should be given by the model:--- with the hyperparameters: ----.
+- a. Please select your project: "Regression: Customer Analytics Dataset"
+- b. To perform regression, select the dataset and click on the "lab" tab and click on "AutoML prediction". Please select the "target_revenue" which corresponds to the target variable. Now please select "Quick Prototypes" and press "CREATE".
+- c.This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. please select the first model that we will use: Logistic Regression. Therefore, click on "DESIGN". We can see a few tabs:
+    -  **Target:** We model the problem as a Regression and our target variable is "target_revenue"
+    - **Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
+    - **Metric:** In our case, we are interested in the R2 Score
+    - **Modeling:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
+
+Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". What is the accuracy ? (expected: , this should look like this)
+    
+- d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? 
+
+- e. Now have try different algorithms:
+    - Use the train ratio 0.8 and the Algorithm: Random Forest: What is the accuracy ? (expected: , this should look like this)
+    - Use the train ratio 0.8 and the Algorithm: KNN: What is the accuracy ? (expected: , this should look like this)
+    - Use the train ratio 0.8 and the Algorithm: Deep Neural Network: What is the accuracy ? (expected: , this should look like this)
+- f. Test the model with new data ! 
+    - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so click on "Quick Modeling ..." and click on "DEPLOY SCRIPT". 
+
 
 
 ---------

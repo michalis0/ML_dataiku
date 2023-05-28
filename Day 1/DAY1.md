@@ -1,6 +1,5 @@
 # Day 1 Data Cleaning and Visualization
 
-image
 
 ## Table of contents 
 * [Step 1 Launch DataIku](#step-1-launch-dataiku)
