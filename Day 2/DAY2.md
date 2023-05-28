@@ -1,11 +1,16 @@
 ### **Day 2: Regression and Classification**
 
-### **Step 2: Classification:**
------------------------------------
-To perform classification, click on the lab tab and click on AutoML prediction. Please select the "feedbck", which corresponds to the target variable. 
+*Disclaimer: Please make sure to have completed the tasks done yesterday*
 
-Please go in the predict tab and make sure the the labels are equal size
-Then have a loo at the train test and change the ratio to 0.6
+You should now have 4 projects created, today we will essentially be using two of them: Regression and Classification. 
+
+### **Step 1: Regression:**
+-----------------------------------
+
+- a. Please select your project: "Classification"
+- b. To perform classification, click on the "lab" tab and click on "AutoML prediction". Please select the "------", which corresponds to the target variable.
+- c. This is the space where we will be training the Machine Learning model ! Have a look at the "train / test" tab, we will be performing a few operations. 
+and change the ratio to 0.6
 Then select three algoithms, i.e: Random forest, Gradient tree boosting, logistic regression what is the accuracy
 Repeat the process for 0.6
 now try deep neural network 
