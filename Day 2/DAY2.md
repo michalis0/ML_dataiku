@@ -42,8 +42,9 @@ Lets have a look at when we train a model, go to "Algorithms" and select the "Ri
 
 - f. Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the target_medv (regression) model and create the recipe. 
-    - Then select all the input columns, except the "medv" column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/define_prediction.png).
-    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/final_pipeline.png) pipeline, please click on testing_set_scored to see the predicted values. 
+    - Then select all the input columns, except the "medv" column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/define_prediction.png)
+    .
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/final_pipeline.png) pipeline, please click on testing_set_scored to see the predicted values. 
 
 
 
