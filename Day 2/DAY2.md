@@ -1,5 +1,5 @@
 
-### -------------------BEGIN 5 JUNE----------------------**
+**-------------------BEGIN 5 JUNE----------------------**
 
 
 ### **Day 2: Regression and Classification**
@@ -23,7 +23,7 @@ You should now have 4 projects created, today we will essentially be using two o
     - **Metric:** In our case, we are interested in the R2 Score
     - **Modeling:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
-Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy model.png))
+Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_model.png))
     
 
 - d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? To do so, you can go on "DESIGN" and change the "Train/Test Set" parameters to 0.6 for the "train ratio"  (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_model_2.png))
@@ -38,18 +38,18 @@ Lets have a look at when we train a model, go to "Algorithms" and select the "Ri
     - What is the best model ? (expected: Gradient Boosted Tree - 0.893 )
     - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models.png)
 
-    - Now click on the best model and click on "DEPLOY", it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models_deploy.png). Your flow should now look like this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/new_flow_deployed.png)
+    - Now click on the best model and click on "DEPLOY", it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/new_flow_deployed.png)
 
 - f. Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the target_medv (regression) model and create the recipe. 
     - Then select all the input columns, except the "medv" column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/define_prediction.csv).
-    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/final pipeline.csv) pipeline, please click on testing_set_scored to see the predicted values. 
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/final_pipeline.csv) pipeline, please click on testing_set_scored to see the predicted values. 
 
 
 
 
 
-### -------------------END 5 JUNE----------------------**
+**-------------------END 5 JUNE----------------------**
 
 
 
