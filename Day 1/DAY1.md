@@ -1,6 +1,3 @@
-**-------------------BEGIN 5 JUNE----------------------**
-
-
 # Day 1 Data Cleaning and Visualization
 
 
@@ -158,43 +155,5 @@ Do the same for the other plots ! (you can try scatter plots, pie charts, feel f
 ### **Step 5: Export the dataset:**
 -----------------------------------
 To export the dataset, go back to the "flow" and click on "1_boston_housing_training_set" then open the panel and click on "Export". The cleaned dataset can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv)
-
-
-
-### -------------------END 5 JUNE----------------------**
-
-
-
-
-
------------------------------------
-### **Step 6: Preparing for tomorrow:**
------------------------------------
-
-### Classification: Airbnb Europe Dataset : 
-
-In order to perform our classification task we also need to clean the dataset that we will be using. The dataset that we have chosen is "Airbnb Cleaned Europe Dataset", link to the dataset can be found [here](https://www.kaggle.com/datasets/dipeshkhemani/airbnb-cleaned-europe-dataset).
-
-Here we are trying to predict the Room type, either private or entire home / apartment. The data cleaning has been done for you and you can find the cleaned dataset under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/Cleaned/airbnb_dataset_prepared.csv):  In order to cleaned the dataset, we simply deleted specific columns which we did not need for our analysis. 
-
-**TASK:** Please import the dataset in a new project called "Classification: Airbnb Europe Dataset" and create a few graph to understand the data. Your home screen with the projects should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_5_1.png). The dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/HM_1.png)
-
-### Text Analytics - NLP: Amazon Alexa Dataset : 
-
-In order to perform our binary classification task using NLP we also need to clean the dataset that we will be using. The dataset that we have chosen is "Amazon Alexa Reviews", link to the dataset can be found [here](https://www.kaggle.com/datasets/sid321axn/amazon-alexa-reviews).
-
-Here we are trying to predict if a comment (feedback) is positive or negative relative the the review. The data cleaning has been done for you and you can find the cleaned dataset under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/Cleaned/3_nlp_cleaned_dataset.csv):  In order to cleaned the dataset, we simply deleted specific columns which we did not need for our analysis, tokenized the text and removed stopwords. 
-
-**TASK:** Please import the dataset in a new project called "NLP: Amazon Alexa Dataset" and create a few graph to understand the data. Your home screen with the projects should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_5_2.png). The dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/HM_2.png).
-
-### Clustering : 
-
-In order to perform our clustering task we also need to clean the dataset that we will be using. The dataset that we have chosen is "Amazon Alexa Reviews", link to the dataset can be found [here](https://www.kaggle.com/datasets/datascientistanna/customers-dataset).
-
-Here we are trying identify customer segments, such as high-value customers or churn risk customers, enabling targeted marketing strategies and personalized customer engagement. The data cleaning has been done for you and you can find the cleaned dataset under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/Cleaned/4_clustering_dataset_cleaned.csv).
-
-**TASK:** Please import the dataset in a new project called "Clustering: Shop Customer Data" and create a few graph to understand the data. Your home screen with the projects should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_5_3.png).  The dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/HM_3.png).
-
-
 
 
