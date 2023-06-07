@@ -1,11 +1,11 @@
-,sentiment,tweet
-0,negative,"Operating loss totalled EUR 0.3 mn , down from a profit of EUR 5.1 mn in the first half of 2009 ."
-1,positive,"The earnings per share for the quarter came in at 0.25 eur , up from the 0.20 eur of the same quarter a year earlier ."
-2,positive,The stock rose for a second day on Wednesday bringing its two-day rise to GBX12 .0 or 2.0 % .
-3,neutral,The goal will be achieved via organic growth possibly supplemented by acquisitions .
-4,negative,"As part of the reorganisation measures that will take place in spring 2006 , Tamglass Finton will start personnel negotiations that will affect its entire staff of 33 ."
-5,neutral,The companies ' aim is to finalize the negotiations and sign the contracts at the start of October 2008 .
-6,neutral,The company admits that 36 months is a relatively short time when operating in Russia .
-7,neutral,"As a result of the merger , the largest professional electronics and telecommunications technology contract manufacturing center in Finland will be formed in Sievi ."
-8,negative,Finnish glass technology company Glaston Oyj Abp net profit decreased to 2.6 mln euro ( $ 3.8 mln ) for the first nine months of 2007 from 7.8 mln euro ( $ 11.4 mln ) for the same period of 2006 .
-9,positive,"Earnings per share ( EPS ) for the first quarter 2007 amounted to EUR0 .07 , up from EUR0 .04 ."
+sentiment,tweet
+negative,"Operating loss totalled EUR 0.3 mn , down from a profit of EUR 5.1 mn in the first half of 2009 ."
+positive,"The earnings per share for the quarter came in at 0.25 eur , up from the 0.20 eur of the same quarter a year earlier ."
+positive,The stock rose for a second day on Wednesday bringing its two-day rise to GBX12 .0 or 2.0 % .
+neutral,The goal will be achieved via organic growth possibly supplemented by acquisitions .
+negative,"As part of the reorganisation measures that will take place in spring 2006 , Tamglass Finton will start personnel negotiations that will affect its entire staff of 33 ."
+neutral,The companies ' aim is to finalize the negotiations and sign the contracts at the start of October 2008 .
+neutral,The company admits that 36 months is a relatively short time when operating in Russia .
+neutral,"As a result of the merger , the largest professional electronics and telecommunications technology contract manufacturing center in Finland will be formed in Sievi ."
+negative,Finnish glass technology company Glaston Oyj Abp net profit decreased to 2.6 mln euro ( $ 3.8 mln ) for the first nine months of 2007 from 7.8 mln euro ( $ 11.4 mln ) for the same period of 2006 .
+positive,"Earnings per share ( EPS ) for the first quarter 2007 amounted to EUR0 .07 , up from EUR0 .04 ."
