@@ -1,3 +1,31 @@
+
+
+
+### **Day 5: Chatbots - AI for social Good - Generative AI - Risks of AI**
+
+-----------------------------------
+### **Step 1: Clustering:**
+-----------------------------------
+
+Go to the  
+
+-----------------------------------
+### **Step 2: Graph Analytics:**
+
+-----------------------------------
+
+
+To install the plugin, open the  Apps menu, click Plugins and search for Graph analytics.
+should look something like this
+Install the plugin
+
+go back to the flow
+
+
+
+
+
+
 Day 5: 
 
 1. Chatbots (20 min)
