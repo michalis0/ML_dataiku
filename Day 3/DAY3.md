@@ -1,22 +1,94 @@
+
+### **Day 3: Text Analytics and Neural Networks**
+
 -----------------------------------
-### **Step 2: Classification:**
+### **Step 1: Text Analytics:**
 -----------------------------------
 
-- a. Please select your project: "Regression: Customer Analytics Dataset"
-- b. To perform regression, select the dataset and click on the "lab" tab and click on "AutoML prediction". Please select the "target_revenue" which corresponds to the target variable. Now please select "Quick Prototypes" and press "CREATE".
+Today we are going to take a look at text Analytics. More precisely we are going to perform sentiment analysis the Financial News dataset which can be found [here](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis).
+
+
+- a. Please create a new project and name it "NLP: Financial News Dataset" and please selet the project. 
+- b. The dataset has the following features: 
+    - tweet: the twitter post 
+    - sentiment: the sentiment related the post, can be positive, neutral or negative
+    Our aim is to predict if the the tweet is positive, negative or neutral.
+
+- c: Please download the dataset that we will be using (the dataset can be downloaded [here]()). Now please import the dataset, you should be expecting ... rows and ... features.
+
+
+- c. To perform this classification, select the dataset "1_financial_news_training_set" and click on the "lab" tab and click on "AutoML prediction". Please select the "target_medv" which corresponds to the target variable. Now please select "Quick Prototypes" and press "CREATE".
 - c.This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. please select the first model that we will use: Logistic Regression. Therefore, click on "DESIGN". We can see a few tabs:
     -  **Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
     - **Metric:** In our case, we are interested in the R2 Score
     - **Modeling:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
-Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". What is the accuracy ? (expected: , this should look like this)
+Lets have a look at when we train a model, go to "Algorithms" and select the "Ridge Regression" only. Then click "TRAIN". (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_model.png))
     
-- d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? 
+
+- d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? To do so, you can go on "DESIGN" and change the "Train/Test Set" parameters to 0.6 for the "train ratio"  (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_model_2.png))
 
 - e. Now have try different algorithms:
-    - Use the train ratio 0.8 and the Algorithm: Random Forest: What is the accuracy ? (expected: , this should look like this)
-    - Use the train ratio 0.8 and the Algorithm: KNN: What is the accuracy ? (expected: , this should look like this)
-    - Use the train ratio 0.8 and the Algorithm: Deep Neural Network: What is the accuracy ? (expected: , this should look like this)
+    - Use the train ratio 0.8 and the Algorithm: Random Forest: What is the accuracy ? (expected: 0.844)
+    - Use the train ratio 0.8 and the Algorithm: Gradient tree boosting: What is the accuracy ? (expected: 0.893)
+    - Use the train ratio 0.8 and the Algorithm: Ridge Regression: What is the accuracy ? (expected: 0.696)
+    - Use the train ratio 0.8 and the Algorithm: Lasso Regression: What is the accuracy ? (expected: 0.655 )
+    - Use the train ratio 0.8 and the Algorithm: KNN: What is the accuracy ? (expected: 0.705)
+    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/model_selection_1.png)
+    - What is the best model ? (expected: Gradient Boosted Tree - 0.893 )
+    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models.png)
+
+    - Now click on the best model and click on "DEPLOY", it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/new_flow_deployed.png)
+
 - f. Test the model with new data ! 
-    - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so click on "Quick Modeling ..." and click on "DEPLOY SCRIPT". 
+    - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the target_medv (regression) model and create the recipe. 
+    - Then select all the input columns, except the "medv" column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/define_prediction.png)
+    .
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline.png) pipeline, please click on testing_set_scored to see the predicted values. 
+
+
+
+-----------------------------------
+### **Step 2: Classification:**
+-----------------------------------
+
+
+- a. Please create a new project by clicking on "NEW PROJECT" and call it "Classification: Advertising dataset". Now, please select the project.
+- b. To perform classification, please download the dataset that we are going to use, that is accessible [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_training_set.csv). 
+    - c. This dataset has 916 rows and 10 features:
+
+    - **Daily Time Spent on Site:** consumer time on site in minutes
+    - **Age:** customer age in years
+    - **Area Income:** average income of geographical area in which customer resides
+    - **Daily Internet Usage:** average minutes a day a customer is online
+    - **Ad Topic Line:** headline of the advertisement
+    - **City:** city of the customer
+    - **Male:** takes 1 if customer is male
+    - **Country:** country of the customer
+    - **Timestamp:** time at which customer clicked on ad
+    - **Clicked ad:** 1 if clicked on ad and 0 otherwise.
+
+- d. Please go back to the "Flow" and click on the "lab" tab and click on "AutoML prediction". Please select the "Clicked ad" which corresponds to the target variable. Now please select "Quick Prototypes" and press "CREATE".
+- c.This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. please select the first model that we will use: Logistic Regression. Therefore, click on "DESIGN". ets have a look at when we train a model, go to "Algorithms" and select the "Logistic Regression" only. Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_models_day_2.png))
+    
+
+- d. Lets train the model using different parameters! Using the same model change the train ratio to 0.6, what is the accuracy ? To do so, you can go on "DESIGN" and change the "Train/Test Set" parameters to 0.6 for the "train ratio"  (expected: [0.994](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/accuracy_model_2_day_2.png))
+
+- e. Now have try different algorithms:
+    - Use the train ratio 0.8 and the Algorithm: Random Forest: What is the accuracy ? (expected: 0.992)
+    - Use the train ratio 0.8 and the Algorithm: Gradient tree boosting: What is the accuracy ? (expected: 0.992)
+    - Use the train ratio 0.8 and the Algorithm: Logistic Regression: What is the accuracy ? (expected: 0.990)
+    - Use the train ratio 0.8 and the Algorithm: KNN: What is the accuracy ? (expected: 0.993)
+    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/model_selection_1_day_2.png)
+
+    - What is the best model ? (expected: Gradient Boosted Tree - 0.993 )
+    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/best_models.png)
+
+    - Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/new_flow_deployed_day_2.png)
+
+- f. Test the model with new data ! 
+    - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. 
+    - Then click on run. 
+    .
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline_day_2.png) pipeline, please click on testing_set_scored to see the predicted values. 
