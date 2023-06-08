@@ -1,4 +1,4 @@
-# Dataiku tutorial for Machine Learning:
+# **Dataiku tutorial for Machine Learning:**
 
 <img width="905" alt="course overview" src="https://github.com/michalis0/ML_dataiku/assets/43532600/8b82138b-5cf2-41bd-bfd9-288c6341c02a">
 
@@ -11,27 +11,16 @@
 
 
 
-----------------------------
+-----------
 ### **Day 1 Data Cleaning and Visualization**
-----------------------------
+#### **Table of contents** 
+* **Step 1** Launch DataIku
+* **Step 2** Import the dataset
+* **Step 3** Data Cleaning
+* **Step 4** Data Visualization
+* **Step 5** Export the dataset
 
-**Goal:** Data Cleaning and Visualization
-
-**Key Takeways are to understand**:
-- the dataset structure 
-- datasets that we will use (and why)
-- importance of cleaning
-- visualization to understand data
-- impact of not cleaning 
-
-**The process**:
-- 1. Presentation of the 5 datasets (regression, classification, NLP, clustering, chatbots)
-- 2. Data cleaning techniques
-- 3. Visualization
-- 4. Importance of cleaning 
-
-*Link to the project folder:*
-
+- 30 minutes
 
 ----------------------
 ### **Day 2 Regression Classification**
