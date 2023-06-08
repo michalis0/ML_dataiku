@@ -138,6 +138,7 @@ We will now focus on **Data Visualization**, which is used to visually represent
 
     
 Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to explore different graphs) (Your dashboard should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_4_dashboard.png))
+<img width="550" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c4481a55-2458-413b-b90b-13317948e4d6">
 
 
 
