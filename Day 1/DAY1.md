@@ -68,7 +68,8 @@ The cleaning steps we will go though:
 - **Step 4:** Removing Duplicates 
 
 
-You should currently see the table containing the dataset (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_init.png)). Now click on the tab menu "Regression: Boston Housing Dataset", this will show your [project](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_1_init_project_overview.png), you can now click on **"GO TO FLOW"**. 
+You should currently see the table containing the dataset (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_init.png)). Now click on the tab menu "Regression: Boston Housing Dataset", this will show your [project](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_1_init_project_overview.png), you can now click on **"GO TO FLOW"**. <img width="471" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/52699461-fb78-4942-a632-cb71c857ce9b">
+
 
 The **"flow"** allows you to create and manage data pipelines, workflows, and transformations for data preparation, analysis, and machine learning tasks. 
 
