@@ -4,10 +4,11 @@
 ### **Day 5: Chatbots - AI for social Good - Generative AI - Risks of AI**
 
 -----------------------------------
-### **Step 1: Clustering:**
+### **Step 1: Chatbots:**
 -----------------------------------
 
-Go to the  
+Go to the API
+ 
 
 -----------------------------------
 ### **Step 2: Graph Analytics:**
