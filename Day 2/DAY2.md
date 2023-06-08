@@ -17,10 +17,10 @@
     - **BASIC - Metric:** In our case, we are interested in the R2 Score
     - **Modeling - Algorithms:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
-Now please click **"TRAIN"**. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/accuracy_model.png))
+Now please click **"TRAIN"**. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
     
 
-- **d.** Lets train the model using different parameters! Using the same model change the **train ratio to 0.6** (this can be done by clicking **DESIGN** and **BASIC - Train/Test set** and change the "Train/Test Set" parameters to 0.6 for the "train ratio"), what is the accuracy ? (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/accuracy_model_2.png))
+- **d.** Lets train the model using different parameters! Using the same model change the **train ratio to 0.6** (this can be done by clicking **DESIGN** and **BASIC - Train/Test set** and change the "Train/Test Set" parameters to 0.6 for the "train ratio"), what is the accuracy ? (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model_2.png))
 
 - **e.** Now try **other algorithms**:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.871)
@@ -28,17 +28,17 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
     - Use the train ratio **0.8** and the Algorithm: **Ridge Regression**: What is the accuracy ? (expected: 0.753)
     - Use the train ratio **0.8** and the Algorithm: **Lasso Regression**: What is the accuracy ? (expected: 0.700 )
     - Use the train ratio 0.8 and the Algorithm: **KNN**: What is the accuracy ? (expected: 0.683)
-    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/model_selection_.png)
-    - What is the best model ? (expected: Gradient Boosted Tree - 0.893 )
-    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/regression_testing_models.png)
+    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/model_selection_.png)
+    - What is the best model ? (expected: Gradient Boosted Tree - 0.901 )
+    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/regression_testing_models.png)
 
-    - Now click on the best model (i.e: Gradient Tree Boosting) and click on **"DEPLOY"**, it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/new_flow_deployed.png)
+    - Now click on the best model (i.e: Gradient Tree Boosting) and click on **"DEPLOY"**, it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png)
 
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Now, as we have done before, please import the dataset as **"testing_set"**. Once it is imported please click on **"Predict**" in the tab on the right side and select the **target_medv (regression)** model and create the recipe. 
-    - Then select all the input columns, except the **"medv"** column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/define_prediction.png). 
+    - Then select all the input columns, except the **"medv"** column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png). 
     - Compare the column "prediction" with the values of the test swet: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
-    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/final_pipeline.png) pipeline, please click on testing_set_scored to see the predicted values. 
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, please click on testing_set_scored to see the predicted values. 
 
 -----------------------------------
 ### **Step 2: Classification:**
@@ -62,19 +62,19 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
 Using this dataset, we will predict if a user has clicked or not the ad. 
 
 - **d.** Please go back to the **"Flow"** and click on the **"lab"** tab and click on **"AutoML prediction"**. Please select the **"Clicked ad"** which corresponds to the target variable. Now please select **"Quick Prototypes"** and press **"CREATE"**.
-- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only. Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/accuracy_models_day_2.png))
+- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only. Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_models_day_2.png))
 - **d** Now have try different algorithms:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.992)
     - Use the train ratio **0.8** and the Algorithm: **Gradient tree boosting**: What is the accuracy ? (expected: 0.992)
     - Use the train ratio **0.8** and the Algorithm: **Logistic Regression**: What is the accuracy ? (expected: 0.990)
     - Use the train ratio **0.8** and the Algorithm: **KNN**: What is the accuracy ? (expected: 0.993)
-    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/model_selection_1_day_2.png)
+    It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/model_selection_1_day_2.png)
 
     - What is the best model ? (expected:  KNN - 0.993 )
-    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/best_models_classification.png)
+    - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_classification.png)
 
-    - Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/new_flow_deployed_day_2.png)
+    - Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed_day_2.png)
 
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
-    - Once you get back to the **"flow"** you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Help/final_pipeline_day_2.png) pipeline, please click on testing_set_scored to see the predicted values. 
+    - Once you get back to the **"flow"** you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline_day_2.png) pipeline, please click on testing_set_scored to see the predicted values. 
