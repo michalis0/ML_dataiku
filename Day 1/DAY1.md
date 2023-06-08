@@ -26,7 +26,8 @@ You just created your first project ! It should look like [this](https://github.
 -----------------------------------
 
 Within the newly created project, you can import the dataset by following these steps:
-- **a.** Download the dataset we will be using. You can find the dataset of this first day under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/1_boston_housing_dataset.csv) and click on the download button "Download raw file".
+- **a.** Download the dataset we will be using. You can find the dataset of this first day under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/1_boston_housing_dataset.csv) and click on the download button "Download raw file". <img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a194b207-37d0-4fe7-b401-53df771e54db">
+
 - **b.** Click on the **"IMPORT YOUR FIRST DATASET"** - **"upload your files"** and drag the dataset you just downloaded *(1_boston_housing_dataset)*. Once the dataset is imported click on "CREATE". You just imported your dataset! 
 - **c.** Have a look at the dataset and the different features, we have:
     - **crim:** per capita crime rate by town.
