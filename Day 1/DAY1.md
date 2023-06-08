@@ -55,7 +55,7 @@ Within the newly created project, you can import the dataset by following these 
 You may ask yourselves why we need to clean this dataset, as it may seem complete. 
 
 We clean data for several reasons:
-- **Accuray:** cleaning data ensures that it is accurate, free from errors, and inconsistencies, enabling reliable analysis.
+- **Accuracy:** cleaning data ensures that it is accurate, free from errors, and inconsistencies, enabling reliable analysis.
 - **Consistency:** data cleaning helps ensure consistency by standardizing formats, resolving discrepancies, and handling missing values
 - **Quality:** cleaning the data improves the overall quality of analysis and models, minimizing biases, outliers, and irrelevant information. 
 
