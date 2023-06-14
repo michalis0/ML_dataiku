@@ -1,37 +1,27 @@
 
-# Day 2 Regression and Classification
-
+# Day 4: Clustering and Graph Analytics
 
 ## Table of contents 
-* [Step 1 Regression](#step-1-regression)
-* [Step 2 Classification](#step-2-classification)
+* [Step 1 Clustering](#step-1-clustering)
+* [Step 2 Time series prediction](#step-2-time-series-prediction)
 
 -----------------------------------
-### **Step 1: Regression:**
+### **Step 1 Clustering:**
 -----------------------------------
 
 - **a.** Create a new project: "Clustering: Customer Dataset".
-- **b.** To perform clustering, please first import the dataset dataset **"4_clustering_dataset_cleaned"**, which can be found [here]() and click on the **"lab"** tab and click on **"AutoML prediction"**. Please select the **"target_medv"** which corresponds to the target variable. Now please select **"Quick Prototypes"** and press **"CREATE"**.
-- **c.**This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
-    -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
-    - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
-    - **BASIC - Metric:** In our case, we are interested in the R2 Score
-    - **Modeling - Algorithms:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
-
-Now please click **"TRAIN"**. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
-
-### **Day 4: Clustering and Graph Analytics**
+- **b.** To perform clustering, please first import the dataset dataset **"4_clustering_dataset_cleaned"**, which can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/4_clustering_dataset_cleaned.csv). 
+- **c.** Now please click on the **"lab"** tab and click on **"AutoML Clustering"**. Please select the **K-Means** which corresponds to the model that we will use. Now please press **"CREATE"**.
+- **d.**Please click on **"TRAIN"**, this will train k-means algorithm to find clusters in the dataset. You should see [this](PICTURE1). Now please click on the model and have a look at the different informations given by the clusters given under **"CLUSTERS"**. You can have a look at the Heatmap, the Cluster profiles and the scatter plot, it should look like [this](PICTURE2).
+- **e.** Now please click on **DEPLOY** and select **DEPLOY A RETRAINABLE MODEL TO THE FLOW"**. It should now look like [this](PICTURE3)-
+- **f.** Now please click on the **"Mall_Customers"** and select **"Cluster"**, like [this](PICTURE 4). And select the model that just have just created and click on **CREATE**, you can directly click on **RUN**. Your flow should now look like [this](PICTURE4)
+- **g.** We will now have a closer look at the clusters that have been created. Therefore click on the new dataset created and select **Charts**. Please select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, please add the different features in the sections "Details". It should look like [this](picture 5).
 
 -----------------------------------
-### **Step 1: Clustering:**
+### **Step 2: Time Series Prediction:**
 -----------------------------------
 
 Go to the  
-
------------------------------------
-### **Step 2: Graph Analytics:**
-
------------------------------------
 
 **Issues with the plugin**
 (To install the plugin, open the  Apps menu, click Plugins and search for Graph analytics. Should look something like this. Install the plugin)
