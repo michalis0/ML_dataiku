@@ -7,8 +7,17 @@
 ### **Step 1: Chatbots:**
 -----------------------------------
 
-Go to the API
- 
+Today we will use the OPENAI ChatGPT API ! In fact we will use it in order to summarize newspapers articles. 
+
+**a.** Please begin by downloading the two newspaper articles we will summarize using ChatGPT. The articles can be found [here](). Those two articles were taken from the BBC Finance, the first one talkes about Interest Rates and the second one about Crypto in the USA. 
+
+**b.** Download the OPEN AI ChatGpt plugin. In order to download the plugin please navigate to the launchpad of dataIKU (this can be done by clicking on the top left icon), you should see [this](1). Now please navigate to the  **"Plugins"** tab and click on the **+ ADD A PLUGIN** then type "OpenAI GPT". This should look something like [this](2). Once you have clicked on the **INSTALL** button please go back to the **Plugins** tab and you should be able to see your plugin (like [this](3))
+
+**c.** In order to be able to use the API, we have to add an API key. To do so please click on the Plugin name and click on "ADD A PRESET", you should now see this [screen](4). Now add the following text for the name insert "ChatGPT" for the description "Key" and for the key, please copy and paste those credentials: **************** and click on **CONFIRM**. 
+
+**d.** Please go back to your main screen and create a new project called **"Chatbots: CHATGPT Text summarization"** and please import the "text_articles_dataset.csv" dataset. As you have downloaded the plugin, you should now see [this](5) icon on the right hand side of the screen. Please select the dataset and click on the icon "OPENAI GPT". Now please select the button **Summarize text with OpenAI GPT**, like [this](6) and create an output dataset called "summarized_dataset". And select the column "Text" and the key that we have created before. Finally click on **RUN** !
+
+**e.**: The text has been summarized ! Your flow should look like [this](8) and the output dataset should look like [this](9)
 
 -----------------------------------
 ### **Step 2: Graph Analytics:**
