@@ -8,6 +8,7 @@ gcloud app browse
 
 **Deploy without a problem using this in the main.py**
 
+```
 from flask import Flask, render_template,jsonify
 import requests
 
@@ -20,4 +21,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
-
+```
