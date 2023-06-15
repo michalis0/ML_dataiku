@@ -34,9 +34,9 @@ In this section, we are going to study neural networks ! More precisely, we will
 
 - **a.** To do so please start by downloading the dataset that we will use. It can be found under [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/imdb_dataset_Neural_Network.csv) link. Now please create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
 
-- **b.** Because training Machine Learning model using pre-trained models such as BERT we will be using an API from HuggingFace that allows use to use the pre-trained model. The actual model and its documentation can be found [here](https://huggingface.co/siebert/sentiment-roberta-large-english). In order to connect the dataset and use the model through the API, we will need to use some python code. Therefore please click on **RECIPE** - **Code** and select **PYTHON** like [this](IMG). Add the training set that you just imported and create a new dataset called **Prediction** and click on **CREATE RECIPE**. 
+- **b.** Because training Machine Learning model using pre-trained models such as BERT we will be using an API from HuggingFace that allows use to use the pre-trained model. The actual model and its documentation can be found [here](https://huggingface.co/siebert/sentiment-roberta-large-english). In order to connect the dataset and use the model through the API, we will need to use some python code. Therefore please click on **RECIPE** - **Code** and select **PYTHON** like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_1_3.png). Add the training set that you just imported and create a new dataset called **Prediction** and click on **CREATE RECIPE**. 
 
-- **C.** In order for the model to connect please copy and paste this code and adapt the code to the one you have in the codebox. 
+- **c.** In order for the model to connect please copy and paste this code and adapt the code to the one you have in the codebox. 
 
 **COMMENT**: Is it easy enough to adapt the code ? 
 
@@ -71,7 +71,10 @@ Prediction.write_with_schema(Prediction_df)
 
 
 ```
+It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_4_3.png)
 This code reads a dataset called "imdb_dataset_Neural_Network" from Dataiku, sends the "review" column of the dataset to a Hugging Face API for sentiment analysis using the model "siebert/sentiment-roberta-large-english". The API response is stored in the "result" variable, and then the code adds a new column called "Predictions" to the dataset with the sentiment analysis results. Finally, it writes the modified dataset, renamed as "Predictions", back to Dataiku with the output schema.
+
+- **d.** Now please click on **RUN** and go back to the flow, which should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_2_3.png). Finally, have a look of how the model predicted the movie reviews ! It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_3_3.png).
 
 
 
