@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask App</title>
+</head>
+<body>
+    <h1>Flask App</h1>
+    <form method="POST" action="/">
+        <label for="text_input">Enter Text:</label>
+        <input type="text" id="text_input" name="text_input" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result">
+        <!-- The predicted label will be displayed here -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('form').submit(function(event) {
+            event.preventDefault();  // Prevent form submission
+            var formData = new FormData(this);
+
+            $.ajax({
+                url: '/',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(response) {
+                    var predictedLabel = response.predicted_label;
+                    $('#result').text('Predicted Label: ' + predictedLabel);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
