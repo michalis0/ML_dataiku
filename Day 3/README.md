@@ -5,7 +5,7 @@
 ### **Step 1: Text Analytics:**
 -----------------------------------
 
-Today we are going to take a look at text Analytics. More precisely we are going to perform sentiment analysis the Financial News dataset which can be found [here](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis).
+Today we are going to take a look at text Analytics. More precisely we are going to perform sentiment analysis using a [Financial News dataset](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis) (you will download below -- don't download from here)).
 
 
 - a. Please create a new project and name it "NLP: Financial News Dataset" and please selet the project. 
