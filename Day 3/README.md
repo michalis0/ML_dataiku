@@ -32,7 +32,7 @@ Today we are going to take a look at text Analytics. More precisely we are going
 
 In this section, we are going to study neural networks ! More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use IMDB movie dataset and predict if movie reviews are positive or negative.
 
-- **a.** To do so please start by downloading the dataset that we will use. It can be found under [this]() link. Now please create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
+- **a.** To do so please start by downloading the dataset that we will use. It can be found under [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/imdb_dataset_Neural_Network.csv) link. Now please create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
 
 - **b.** Because training Machine Learning model using pre-trained models such as BERT we will be using an API from HuggingFace that allows use to use the pre-trained model. The actual model and its documentation can be found [here](https://huggingface.co/siebert/sentiment-roberta-large-english). In order to connect the dataset and use the model through the API, we will need to use some python code. Therefore please click on **RECIPE** - **Code** and select **PYTHON** like [this](IMG). Add the training set that you just imported and create a new dataset called **Prediction** and click on **CREATE RECIPE**. 
 
