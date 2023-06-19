@@ -38,7 +38,7 @@ Within the newly created project, you can import the dataset by following these 
 <img width="329" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/e95ed83d-197c-432e-b1d3-42da3d4a6152">
 
 - Click on the **"IMPORT YOUR FIRST DATASET"** - **"upload your files"** and drag the dataset you just downloaded *(1_boston_housing_dataset.csv)*. Once the dataset is imported click on "CREATE". You just imported your dataset! 
-- **c.** Have a look at the dataset and the different features, we have:
+- **c.** Have a look at the dataset and the different features (or columns), we have:
     - **crim:** per capita crime rate by town.
     - **zn:** proportion of residential land zoned for lots over 25,000 sq.ft.
     - **chas:** charles River dummy variable (1 if tract bounds river; 0 otherwise)
@@ -52,7 +52,7 @@ Within the newly created project, you can import the dataset by following these 
     - **lstat:** % lower status of the population
     - **medv:** Median value of owner-occupied homes in $1000's -> **Target variable**
 
-- **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars**.
+- **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars or medv**.
 
 
 **Check**: You dataset should have **502 rows** and **12 columns**. 
