@@ -111,6 +111,7 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
 
+-----------------------------------
 #### **Step 3.2: Handling Outliers:**
 -----------------------------------
 - **What:** Identify and remove any outliers records from your dataset. 
@@ -128,7 +129,7 @@ Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 <img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/11ff4ed6-73fe-42a8-862b-f858d6a00c3a">
 
 
-
+-----------------------------------
 #### **Step 3.3: Renaming columns:**
 -----------------------------------
 - **What:** Rename columns for clarity
@@ -139,7 +140,7 @@ Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 Once this is done, click on **"RUN"** (bottom left). This will clean the table by executing the operations that we have created. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean.png)) Then go back to the "flow board", by clicking on "Regression: Boston Housing Dataset" -> "GO TO FLOW".  (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_flow_board.png))
 
 
-
+-----------------------------------
 #### **Step 3.4: Removing duplicates:**
 ---------------------------------------
 - **What:** In this setp we will identify and remove any duplicate records from the dataset, as duplicates can skew your analysis and introduce bias.
@@ -147,8 +148,9 @@ Once this is done, click on **"RUN"** (bottom left). This will clean the table b
 - **How:** There are duplicate rows in the dataset that we need to remove. Now please select **"RECIPE"** and select **"visual"** and click on **"group"**. In the popup select the **"1_boston_housing_dataset_prepared"** and group by **"crim"**. Now rename the output dataset as **"1_regression_cleaned_dataset"**. Now add all the keys **"Select key to add"**. Then click on **"RUN"** (It should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/remove_duplicates.png)). Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
 - **Expected:** How many rows are in your dataset (Expected: 468)
 
-
+-----------------------------------
 #### **Step 3.5: Creating the training set:**
+-----------------------------------
 
 Now, please go back to the flow, click on the last dataset created (1_regression_cleaned_dataset), and as done before, click on **"RECIPE"** - **"Visual"** - **"Data Preparation"**. Please name the output dataset **"1_boston_housing_training_set"**. Please delete the column **"count"** and click **"RUN"**.  (Your data flow should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean_flow.png))
 
@@ -167,6 +169,7 @@ We will now focus on **Data Visualization**, which is used to visually represent
 
 --------------
 #### **Step 4.1:** Plot Income Distribution by Education Level
+-----------------------------------
 
 - **What:** Visualize a scatter plot to explore the relationship between age and revenue.
 - **How:** Click on "1_boston_housing_training_set" then click on the tab **"Charts"** - this is how we are going to create our plots. I will walk you through the first plot - *Scatter Plot of Average Number of Rooms vs. Housing Prices*, where we will plot the average number of rooms per dwelling (rm) on the x-axis and the Housing prices on the y-axis (target_medv). Select **"Scatter plot"** and drag and drop rm (x_axis) and target_medv (y_axis). Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard (which is also accessible from the project root)
