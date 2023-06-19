@@ -136,14 +136,18 @@ Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 
 - **How:** Click on "medv" and click **"Rename"**, and insert "target_medv". This columns is the target column, which corresponds to the value we would like to predict with our model. It is a good approach to give it the name of the target variable, in order to add some clarity in the dataset. 
 
+Once this is done, click on **"RUN"** (bottom left). 
 
-Once this is done, click on **"RUN"** (bottom left). This will clean the table by executing the operations that we have created. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean.png)) Then go back to the "flow board", by clicking on "Regression: Boston Housing Dataset" -> "GO TO FLOW".  (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_flow_board.png))
+<img width="413" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bd9f2ab2-6e5b-439e-ae31-4b0a4c581d8b">
+
+
+This will apply all the operations, one-by-one, on the table. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean.png)) Then go back to the "flow board", by clicking on "Regression: Boston Housing Dataset" -> "GO TO FLOW".  (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_flow_board.png))
 
 
 -----------------------------------
 #### **Step 3.4: Removing duplicates:**
 ---------------------------------------
-- **What:** In this setp we will identify and remove any duplicate records from the dataset, as duplicates can skew your analysis and introduce bias.
+- **What:** In this step we will identify and remove any duplicate records from the dataset, as duplicates can skew your analysis and introduce bias.
 
 - **How:** There are duplicate rows in the dataset that we need to remove. Now please select **"RECIPE"** and select **"visual"** and click on **"group"**. In the popup select the **"1_boston_housing_dataset_prepared"** and group by **"crim"**. Now rename the output dataset as **"1_regression_cleaned_dataset"**. Now add all the keys **"Select key to add"**. Then click on **"RUN"** (It should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/remove_duplicates.png)). Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
 - **Expected:** How many rows are in your dataset (Expected: 468)
