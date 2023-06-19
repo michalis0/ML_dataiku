@@ -120,9 +120,13 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 <img width="175" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/99c15276-7348-4f30-b51c-cf6bdda724ff">
 
 Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
+
 <img width="472" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f1b187bd-81f0-4673-a02b-1770ccdb4e85">
 
-- **Expected:** How many rows are in your dataset (Expected: -30 -> 470 rows left) 
+- **Expected:** How many rows are in your dataset (Expected: -30 -> 470 rows left)
+  
+<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/11ff4ed6-73fe-42a8-862b-f858d6a00c3a">
+
 
 
 #### **Step 3.3: Renaming columns:**
