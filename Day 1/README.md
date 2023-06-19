@@ -172,7 +172,7 @@ Now, go back to the flow. Right-click on the last dataset created (1_regression_
 <img width="751" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ec686caa-5bcb-4525-88a5-54cafc1c2430">
 
 
-
+We have only scratched the surface, on what you need to do as a data and machine learning scientist when dealing with data. Remember, that the role of the data scientists deals to a large extent with data wrangling! If you can do this part very fast and efficiently, it will save you a lot of time!
 
 -----------------------------------
 ### **Hour 2: Data Visualization:**
