@@ -6,7 +6,7 @@ Before you do anything in machine learning, you have to find/create a dataset, "
 * [Step 1 Launch DataIku](#step-1-launch-dataiku)
 * [Step 2 Import the dataset](#step-2-import-the-dataset)
 * [Step 3 Data Cleaning](#step-3-data-cleaning)
-* [Step 4 Data Visualization](#hour-2:-data-visualization)
+* [Step 4 Data Visualization](#hour-2-data-visualization)
 * [Step 5 Export the dataset](#step-5-export-the-dataset)
 
 -----------------------------------
