@@ -115,8 +115,9 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 -----------------------------------
 - **What:** Identify and remove any outliers records from your dataset. 
 
-- **How:** Click on "zn" and click on **"Analyze"**, this opens a popup which shows potential outliers. Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
-<img width="174" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/cbb50825-96e9-4ca4-815a-081d9537ed26">
+- **How:** Click on the right part of column "zn" and click on **"Analyze"**, this opens a popup which shows potential outliers. Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
+
+<img width="175" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/99c15276-7348-4f30-b51c-cf6bdda724ff">
 
 
 - **Expected:** How many rows are in your dataset (Expected: -30 -> 570 rows left) 
