@@ -12,7 +12,7 @@
 ### **Step 1: Launch Dataiku:**
 -----------------------------------
 We will be using Dataiku to do no-code machine learning.
-Please follow this link: https://www.dataiku.com/company/academic-program/. Go to the bottom right of this page, and create an "Individual Academic Licence"
+Please follow this link: https://www.dataiku.com/company/academic-program/. Go to the bottom right of this page, and create an "Individual Academic Licence". It may take 10mins or so for the environment to be setup, because it will be created on the cloud.
 <img width="100%" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d20122b4-fa4d-4355-a03a-c1756e6ff75e">
 
 
