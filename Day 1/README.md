@@ -32,7 +32,9 @@ You just created your first project ! It should look like [this](https://github.
 -----------------------------------
 However, you new project has no dataset yet. Let us add one.
 Within the newly created project, you can import the dataset by following these steps:
-- **a.** Download the dataset we will be using. You can find the dataset of this first day under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/1_boston_housing_dataset.csv) and click on the download button "Download raw file". <img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a194b207-37d0-4fe7-b401-53df771e54db">
+- **a.** Download the dataset we will be using. You can find the dataset of this first day under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/1_boston_housing_dataset.csv) and click on the download button "Download raw file".
+
+<img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a194b207-37d0-4fe7-b401-53df771e54db">
 
 - **b.**
 <img width="329" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/e95ed83d-197c-432e-b1d3-42da3d4a6152">
