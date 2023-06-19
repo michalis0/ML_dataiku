@@ -104,9 +104,12 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 -----------------------------------
 - **What:** Identify and handle missing values in your dataset. 
 
-- **How:** You should see some cells that do not have data, in order to identify them, please click on a cell that has no data (from the column "crim") and select "Remove rows where cell is empty"
+- **How:** You will see that the first column (crim) has some rows with no values. Click on a cell that has no data (in the column "crim") and select "Remove rows where cell is empty"
 
-- **Expected:** How many rows are in your dataset now (Expected: -2 -> 500 rows left) 
+<img width="341" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/89879dcc-25ef-4b1b-beea-717f9a0f6db8">
+
+
+- **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
 
 #### **Step 3.2: Handling Outliers:**
 -----------------------------------
