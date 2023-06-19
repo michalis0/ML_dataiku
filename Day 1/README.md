@@ -3,11 +3,9 @@
 Before you do anything in machine learning, you have to find/create a dataset, "clean" it and wrangle around with the data, and possibly visualize it so that you get a better understanding. We will deal with this part today.
 
 ## Table of contents 
-Lab1:
 * [Step 1 Launch DataIku](#step-1-launch-dataiku)
 * [Step 2 Import the dataset](#step-2-import-the-dataset)
 * [Step 3 Data Cleaning](#step-3-data-cleaning)
-Lab2:
 * [Step 4 Data Visualization](#step-4-data-visualization)
 * [Step 5 Export the dataset](#step-5-export-the-dataset)
 
