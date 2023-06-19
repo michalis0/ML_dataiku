@@ -206,3 +206,10 @@ Do the same for the other plots ! (you can try scatter plots, pie charts, feel f
 -----------------------------------
 To export the dataset, go back to the **"flow"** and click on **"1_boston_housing_training_set"** then open the panel and click on **"Export"**. If you did not manage to do all the tasks, the cleaned dataset can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv). Please have it downloaded for tomorrow, as we will use it for the machine learning models ! 
 
+
+-----------------------------------
+### ** HOMEWORK **
+-----------------------------------
+Pick a dataset you have been working with for your research, and do 1 or 2 visualizations of it. Share with the rest of the class.
+
+
