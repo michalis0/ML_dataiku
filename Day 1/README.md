@@ -3,17 +3,15 @@
 Before you do anything in machine learning, you have to find/create a dataset, "clean" it and wrangle around with the data, and possibly visualize it so that you get a better understanding. We will deal with this part today.
 
 ## Table of contents 
-* [Step 1 Data Cleaning](#hour-1-data-cleaning)
+* [Step 1 Launch Dataiku](#step-1-dataiku)
 * [Step 2 Import the dataset](#step-2-import-the-dataset)
 * [Step 3 Data Cleaning](#step-3-data-cleaning)
 * [Step 4 Data Visualization](#hour-2-data-visualization)
 * [Step 5 Export the dataset](#step-5-export-the-dataset)
 
 -----------------------------------
-### **Hour 1: Data cleaning**
+### **Step 1: Dataiku**
 -----------------------------------
-
-#### Dataiku
 
 We will be using Dataiku to do no-code machine learning.
 Please follow this link: https://www.dataiku.com/company/academic-program/. Go to the bottom right of this page, and create an "Individual Academic Licence". It may take 10mins or so for the environment to be setup, because it will be created on the cloud.
