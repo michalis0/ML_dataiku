@@ -178,7 +178,7 @@ Now, go back to the flow. Right-click on the last dataset created (1_regression_
 ### **Hour 2: Data Visualization:**
 -----------------------------------
 
-We will now focus on **Data Visualization**, with which we can comprehend data patterns, relationships. Visualization also provides insights in a more accessible and intuitive way, aiding understanding and decision-making. To do so we will perform **4 different visualizations:**
+We will now focus on **Data Visualization**, with which we can comprehend data patterns and relationships. Visualization also provides insights in a more intuitive way, aids understanding and decision-making. We will perform **4 different visualizations:**
 
 - **Plot 1:** Scatter Plot of Average Number of Rooms vs. Housing Prices (scatter plot)
 - **Plot 2:** Average Housing Prices by nitric oxides concentration (bar plot)
