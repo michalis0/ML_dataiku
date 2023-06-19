@@ -196,6 +196,7 @@ I will walk you through the first plot - *Scatter Plot of Average Number of Room
 
     
 Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to explore different graphs) (Your dashboard should look something like this:
+
 <img width="751" alt="image" src="https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_4_dashboard.png">
 
 
