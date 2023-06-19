@@ -6,7 +6,7 @@ Before you do anything in machine learning, you have to find/create a dataset, "
 * [Step 1 Launch DataIku](#step-1-launch-dataiku)
 * [Step 2 Import the dataset](#step-2-import-the-dataset)
 * [Step 3 Data Cleaning](#step-3-data-cleaning)
-* [Step 4 Data Visualization](#step-4-data-visualization)
+* [Step 4 Data Visualization](#hour-2:-data-visualization)
 * [Step 5 Export the dataset](#step-5-export-the-dataset)
 
 -----------------------------------
@@ -164,8 +164,9 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 -----------------------------------
 #### **Step 3.5: Creating the training set:**
 -----------------------------------
+Now we will create our final dataset which we will use tomorrow to perform regression.
 
-Now, please go back to the flow, click on the last dataset created (1_regression_cleaned_dataset), and as done before, click on **"RECIPE"** - **"Visual"** - **"Data Preparation"**. Please name the output dataset **"1_boston_housing_training_set"**. Please delete the column **"count"** and click **"RUN"**.  (Your data flow should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean_flow.png))
+Now, go back to the flow. Click on the last dataset created (1_regression_cleaned_dataset), and as done before, click on **"RECIPE"** - **"Visual"** - **"Data Preparation"**. Name the output dataset **"1_boston_housing_training_set"**. Delete the column **"count"** and click **"RUN"**.  (Your data flow should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean_flow.png))
 
 
 
@@ -173,7 +174,7 @@ Now, please go back to the flow, click on the last dataset created (1_regression
 ### **Hour 2: Data Visualization:**
 -----------------------------------
 
-We will now focus on **Data Visualization**, which is used to visually represent data patterns, relationships, and insights in a more accessible and intuitive way, aiding understanding and decision-making. To do so we will perform **4 different visualizations:**
+We will now focus on **Data Visualization**, with which we can comprehend data patterns, relationships. Visualization also provides insights in a more accessible and intuitive way, aiding understanding and decision-making. To do so we will perform **4 different visualizations:**
 
 - **Plot 1:** Scatter Plot of Average Number of Rooms vs. Housing Prices (scatter plot)
 - **Plot 2:** Average Housing Prices by nitric oxides concentration (bar plot)
