@@ -154,7 +154,11 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 <img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fbd214bc-71d5-428c-bb71-a1f6f975e881">
 
 
-- In the popup select the **"1_boston_housing_dataset_prepared"**. Accept the output dataset as **"1_regression_cleaned_dataset"**.  Then click on **"RUN"** (It should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/remove_duplicates.png)). Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
+- In the popup select the **"1_boston_housing_dataset_prepared"**. Accept the output dataset as **"1_regression_cleaned_dataset"**.  Then click on **"RUN"** (bottom left).
+<img width="707" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f384eb37-503c-4cfd-827a-20e20e741ed2">
+
+
+- Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
 - **Expected:** How many rows are in your dataset (Expected: 468)
 
 -----------------------------------
