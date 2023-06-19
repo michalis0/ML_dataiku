@@ -16,7 +16,7 @@ We will be using Dataiku to do no-code machine learning.
 Please follow this link: https://www.dataiku.com/company/academic-program/. Go to the bottom right of this page, and create an "Individual Academic Licence". It may take 10mins or so for the environment to be setup, because it will be created on the cloud.
 <img width="100%" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d20122b4-fa4d-4355-a03a-c1756e6ff75e">
 
-Because this is on the cloud, it may "turn-off" after a while. If this happens, when you login you may have to turn ON your instance again from the main dashboard.
+Because this is on the cloud, it may "turn-off" after a while. If this happens, when you login you may have to turn ON your instance again from the main dashboard. Once powered-up, click on "Open Instance" to load the main view of DataIku.
 <img width="555" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/12bfb982-c953-469e-aa08-8bcc4983748b">
 
 
