@@ -90,9 +90,13 @@ This will show your [project](https://github.com/michalis0/ML_dataiku/blob/main/
 <img width="471" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/52699461-fb78-4942-a632-cb71c857ce9b">
 
 
-The **"flow"** allows you to create and manage data pipelines, workflows, and transformations for data preparation, analysis, and machine learning tasks. 
+The **flow** allows you to do various operations on your datasets, perform analyses and machine learning tasks. 
 
-You can now select the tab **"RECIPE"** and select **"Visual"** and click on **"Data preparation"**. Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE RECIPE"**. This creates a space where you can perform data cleaning techniques. (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_cleaning.png)) Lets start cleaning ! 
+You can now select on the top the button **"RECIPE"** and select **"Visual"** and click on **"Data preparation"**. 
+<img width="516" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9df3a369-be31-473b-a422-343ad69461f4">
+
+
+Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE RECIPE"**. This creates a space where you can perform data cleaning techniques. (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_cleaning.png)) Let's start cleaning ! 
 
 
 -------------------------------------------
