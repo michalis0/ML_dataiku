@@ -163,11 +163,14 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 - **Expected:** How many rows are in your dataset (Expected: 468)
 
 -----------------------------------
-#### **Step 3.5: Creating the training set:**
+#### **Step 3.5: The final training dataset:**
 -----------------------------------
 Now we will create our final dataset which we will use tomorrow to perform regression.
 
-Now, go back to the flow. Click on the last dataset created (1_regression_cleaned_dataset), and as done before, click on **"RECIPE"** - **"Visual"** - **"Data Preparation"**. Name the output dataset **"1_boston_housing_training_set"**. Delete the column **"count"** and click **"RUN"**.  (Your data flow should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean_flow.png))
+Now, go back to the flow. Right-click on the last dataset created (1_regression_cleaned_dataset), and click rename and rename it to **"1_boston_housing_training_set"**. 
+
+<img width="751" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ec686caa-5bcb-4525-88a5-54cafc1c2430">
+
 
 
 
