@@ -147,7 +147,7 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 -----------------------------------
 #### **Step 3.4: Removing duplicates:**
 ---------------------------------------
-- **What:** In this step we will identify and remove any duplicate records from the dataset, as duplicates can skew your analysis and introduce bias.
+- **What:** In this step we will identify and remove any duplicate records from the dataset. Duplicates are rows that are exactly identical. Duplicates can skew your analysis and introduce bias.
 
 - **How:** There are duplicate rows in the dataset that we need to remove. Now please select **"RECIPE"** and select **"visual"** and click on **"group"**. In the popup select the **"1_boston_housing_dataset_prepared"** and group by **"crim"**. Now rename the output dataset as **"1_regression_cleaned_dataset"**. Now add all the keys **"Select key to add"**. Then click on **"RUN"** (It should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/remove_duplicates.png)). Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
 - **Expected:** How many rows are in your dataset (Expected: 468)
