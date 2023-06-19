@@ -156,7 +156,7 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 
 
 - In the popup select the **"1_boston_housing_dataset_prepared"**. Accept the output dataset as **"1_regression_cleaned_dataset"**.  Then click on **"RUN"** (bottom left).
-<img width="707" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f384eb37-503c-4cfd-827a-20e20e741ed2">
+<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f384eb37-503c-4cfd-827a-20e20e741ed2">
 
 
 - Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
