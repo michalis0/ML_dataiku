@@ -10,7 +10,7 @@ Before you do anything in machine learning, you have to find/create a dataset, "
 * [Step 5 Export the dataset](#step-5-export-the-dataset)
 
 -----------------------------------
-### **Step 1: Launch Dataiku:**
+### **Hour 1: Create account in Dataiku; Import a Dataset; Do basic cleaning operations**
 -----------------------------------
 We will be using Dataiku to do no-code machine learning.
 Please follow this link: https://www.dataiku.com/company/academic-program/. Go to the bottom right of this page, and create an "Individual Academic Licence". It may take 10mins or so for the environment to be setup, because it will be created on the cloud.
@@ -161,7 +161,7 @@ Now, please go back to the flow, click on the last dataset created (1_regression
 
 
 -----------------------------------
-### **Step 4: Data Visualization:**
+### **Hour 2: Data Visualization:**
 -----------------------------------
 
 We will now focus on **Data Visualization**, which is used to visually represent data patterns, relationships, and insights in a more accessible and intuitive way, aiding understanding and decision-making. To do so we will perform **4 different visualizations:**
