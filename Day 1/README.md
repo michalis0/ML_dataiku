@@ -57,7 +57,7 @@ Within the newly created project, you can import the dataset by following these 
 - **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars or medv**.
 
 
-**Check**: You dataset should have **502 rows** and **12 columns**. 
+**Check**: Your dataset should have **502 rows** and **12 columns**. 
 
 -----------------------------------
 ### **Step 3: Data Cleaning:**
