@@ -1,6 +1,8 @@
 # Day 2 Regression and Classification
 
 With regression, we predict numerical values (e.g., someone's age, given his/her picture). With classification, categorical values (e.g., someone's eye color from his face picture).
+<img width="324" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/71ac0c68-1ff1-4ecd-afcd-1d7d312adc84">
+
 
 ## Table of contents 
 * [Step 1 Regression](#step-1-regression)
