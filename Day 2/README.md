@@ -45,6 +45,7 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
       
 <img width="344" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/40f79e95-16f2-4a43-b871-b22765df5b02">
 
+
     - Now **double-click** on the best model (i.e: Gradient Tree Boosting) and click on **"DEPLOY"** (top right). It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png)
 
 - **f.** Test the model with new data ! 
