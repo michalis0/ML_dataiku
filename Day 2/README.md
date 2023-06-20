@@ -64,10 +64,10 @@ Once imported, click/select the newly imported data and on the right tab scroll 
 
 <img width="267" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8f2fd26e-971e-40eb-8026-ab67b1ff18a0">
 
-Select the **target_medv (regression)** model and create the recipe. 
+Select the Prediction model **target_medv (regression)** model and click on "CREATE RECIPE". 
+In the next screen, click on the green [RUN](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png).  (bottom left).
 
-Then select all the input columns, except the **"medv"** column and click on the green [RUN] (bottom left).
-(https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png). 
+
     - Compare the column "prediction" with the values of the test set: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
 
