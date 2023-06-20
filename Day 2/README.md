@@ -25,9 +25,13 @@ With regression, we predict numerical values (e.g., someone's age, given his/her
     - **Modeling - Algorithms:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
 Now please click **"TRAIN"**. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
-    
+
+    <img width="431" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5c9e6412-a0e5-4c02-8a09-cc997b4f45ed">
+
 
 - **d.** Lets train the model using different parameters! Using the same model change the **train ratio to 0.6** (this can be done by clicking **DESIGN** and **BASIC - Train/Test set** and change the "Train/Test Set" parameters to 0.6 for the "train ratio"), what is the accuracy ? (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model_2.png))
+
+
 
 - **e.** Now try **other algorithms**:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.871)
