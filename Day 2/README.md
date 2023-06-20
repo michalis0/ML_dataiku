@@ -11,7 +11,10 @@ With regression, we predict numerical values (e.g., someone's age, given his/her
 -----------------------------------
 
 - **a.** Please select your project: "Regression: Boston Housing Dataset". (If you did not manage to do the steps yesterday, please import the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv)).
-- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** and click on the **"lab"** tab and click on **"AutoML prediction"**. Please select the **"target_medv"** which corresponds to the target variable. Now please select **"Quick Prototypes"** and press **"CREATE"**.
+- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** and click on the **"Lab"** button (top right).
+<img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6b1c944f-2ac4-4426-9875-30b90d781f51">
+
+-   click on **"AutoML prediction"**. Select the **"target_medv"** which corresponds to the target variable. Pick **"Quick Prototypes"** and press **"CREATE"**.
 - **c.**This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
     -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
