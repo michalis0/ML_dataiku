@@ -69,7 +69,7 @@ In the next screen, click on the green [RUN](https://github.com/michalis0/ML_dat
 
 Compare the column "prediction" with the values of the test set: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
 
-Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
+Once you get back to the "flow" you should see [this](HELP/final%20pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
 
 
 ## More information:
