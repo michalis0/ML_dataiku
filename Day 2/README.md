@@ -1,5 +1,6 @@
 # Day 2 Regression and Classification
 
+With regression, we predict numerical values (eg someone's age, given his/her picture). With classification, categorical values (e.g., someone's eye color from his face picture).
 
 ## Table of contents 
 * [Step 1 Regression](#step-1-regression)
