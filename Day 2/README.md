@@ -67,6 +67,11 @@ Then select all the input columns, except the **"medv"** column and click on [ru
     - Compare the column "prediction" with the values of the test swet: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
 
+
+## More information:
+- See also the [tutorials at Dataiku](https://knowledge.dataiku.com/latest/ml-analytics/model-scoring/tutorial-scoring-data.html)
+  
+
 -----------------------------------
 ### **Step 2: Classification:**
 -----------------------------------
