@@ -73,7 +73,7 @@ Once you get back to the "flow" you should see [this](https://github.com/michali
 
 
 ## More information:
-- See also the [tutorials at Dataiku](https://knowledge.dataiku.com/latest/ml-analytics/model-scoring/tutorial-scoring-data.html)
+- See also the [model scoring tutorials at Dataiku](https://knowledge.dataiku.com/latest/ml-analytics/model-scoring/tutorial-scoring-data.html)
   
 
 -----------------------------------
