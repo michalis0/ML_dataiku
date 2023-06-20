@@ -42,11 +42,14 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
     It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/model_selection_.png)
     - What is the best model ? (expected: Gradient Boosted Tree - 0.901 )
     - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/regression_testing_models.png)
-      
-<img width="344" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/40f79e95-16f2-4a43-b871-b22765df5b02">
 
 
-    - Now **double-click** on the best model (i.e: Gradient Tree Boosting) and click on **"DEPLOY"** (top right). It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png)
+  <img width="344" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/40f79e95-16f2-4a43-b871-b22765df5b02">
+
+
+**Double-click** on the best model (i.e: Gradient Tree Boosting). You will move to another screen. Click on **"DEPLOY"** (top right). It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow will look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png).
+
+Now, we have this predictive model in our flow, and we can apply other data to it.
 
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Now, as we have done before, please import the dataset as **"testing_set"**. Once it is imported please click on **"Predict**" in the tab on the right side and select the **target_medv (regression)** model and create the recipe. 
