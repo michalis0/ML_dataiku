@@ -54,8 +54,16 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
 Now, we have this predictive model in our flow, and we can apply other data to it.
 
 - **f.** Test the model with new data ! 
-    - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Import the dataset as **"testing_set"** (as we did previously). Once imported, click on **"Predict**" in the tab on the right side and select the **target_medv (regression)** model and create the recipe. 
-    - Then select all the input columns, except the **"medv"** column and click on [run](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png). 
+    - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Import the dataset as **"testing_set"** (as we did previously). Remember to download the "raw" csv file (top-right button).
+
+<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45128c91-c454-4189-b262-19baa8b1ee8c">
+
+  
+    
+Once imported, click on **"Predict**" in the tab on the right side and select the **target_medv (regression)** model and create the recipe. 
+
+Then select all the input columns, except the **"medv"** column and click on [run]
+(https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png). 
     - Compare the column "prediction" with the values of the test swet: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
 
@@ -99,9 +107,6 @@ Using this dataset, we will predict if a user will click or not on the ad.
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv) (remember to download as "raw" file, clicking on the top right icon). Now, as done before, import the dataset naming it "testing_set".
 
-<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45128c91-c454-4189-b262-19baa8b1ee8c">
-
-  
-Once it is imported please click on "Predict" in the tab on the right side and select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
+Once imported, click on "Predict" in the tab on the right side and select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
 
 Once you get back to the **"flow"** you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline_day_2.png) pipeline, click on testing_set_scored to see the predicted values. 
