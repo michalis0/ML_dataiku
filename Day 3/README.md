@@ -23,7 +23,12 @@ Today we are going to take a look at text Analytics. More precisely we are going
 - e. Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the "Predict sentiment (multiclass)" model and create the recipe. 
     - Then please on Run. 
-    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline_nlp.png) pipeline, please click on testing_set_scored to see the predicted values. 
+    - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline_nlp.png) pipeline, please click on testing_set_scored to see the predicted values.
+ 
+-------
+#### HOMEWORK
+-------
+- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to login to dataiku and install the plugin.
 
 
 -----------------------------------
