@@ -60,11 +60,15 @@ Now, we have this predictive model in our flow, and we can apply other data to i
 
   
     
-Once imported, click on **"Predict**" in the tab on the right side and select the **target_medv (regression)** model and create the recipe. 
+Once imported, click/select the newly imported data and on the right tab scroll down to find the green **"Predict**".
 
-Then select all the input columns, except the **"medv"** column and click on [run]
+<img width="267" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8f2fd26e-971e-40eb-8026-ab67b1ff18a0">
+
+Select the **target_medv (regression)** model and create the recipe. 
+
+Then select all the input columns, except the **"medv"** column and click on the green [RUN] (bottom left).
 (https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png). 
-    - Compare the column "prediction" with the values of the test swet: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
+    - Compare the column "prediction" with the values of the test set: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
 
 
@@ -112,6 +116,6 @@ Using this dataset, we will predict if a user will click or not on the ad.
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv) (remember to download as "raw" file, clicking on the top right icon). Now, as done before, import the dataset naming it "testing_set".
 
-Once imported, click on "Predict" in the tab on the right side and select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
+Once imported, click/select the newly imported test dataset, and then scroll down on the right tab to find the green "Predict". Select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
 
 Once you get back to the **"flow"** you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline_day_2.png) pipeline, click on testing_set_scored to see the predicted values. 
