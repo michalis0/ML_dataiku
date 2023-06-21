@@ -81,7 +81,8 @@ Once you get back to the "flow" you should see [this](HELP/final%20pipeline.png)
 -----------------------------------
 ### **Step 2: Classification:**
 -----------------------------------
-<img width="188" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/76e6c650-5161-48f5-9aff-455fc1898077">
+<img width="193" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5095ef09-986c-494f-a68f-d2eaff005a8c">
+
 
 Now, we will build a classification model. 
 We will try to predict if an online user will click on an advertisement or not, based on various features. Such a predictive model is very important for websites. We should only show those advertisements for which have high-propensity to click on. We will build a predictive model just for one advertisement, but in reality you can imagine that we have models for many advertisements.
