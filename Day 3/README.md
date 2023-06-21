@@ -39,6 +39,9 @@ Today we are going to take a look at text Analytics. We are going to perform sen
 
 Then, you should be be able to access it in a Flow under "Recipe" -> "Natural Language Processing"-> "Sentiment Analysis".
 
+<img width="250" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ffdef52c-5c29-4c69-b129-b888bf5aee9c">
+
+
 
 
 -----------------------------------
