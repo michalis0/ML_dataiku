@@ -54,7 +54,9 @@ Now please click **"TRAIN"**. (It should look like [this](https://github.com/mic
 Now, we have this predictive model in our flow, and we can apply other data to it.
 
 - **f.** Test the model with new data ! 
-    - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv). Import the dataset as **"testing_set"** (as we did previously). Remember to download the "raw" csv file (top-right button).
+    - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv), by clicking the "Download Raw File". <img width="189" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d22cc855-9e1b-4ac1-a65c-360b9cf3c998">
+    
+ Import the dataset as **"testing_set"** (as we did previously). 
 
 <img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45128c91-c454-4189-b262-19baa8b1ee8c">
 
