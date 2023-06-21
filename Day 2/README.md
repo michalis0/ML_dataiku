@@ -102,7 +102,7 @@ First, click on the bird on the top left, to go to the projects screen.
     - **Daily Internet Usage:** average minutes a day a customer is online
     - **Ad Topic Line:** headline of the advertisement
     - **City:** city of the customer
-    - **Male:** takes 1 if customer is male
+    - **Male:** 1 if customer is male
     - **Country:** country of the customer
     - **Timestamp:** time at which customer clicked on ad
     - **Clicked ad:** 1 if clicked on ad and 0 otherwise.
@@ -112,7 +112,7 @@ Using this dataset, we will predict if a user will click or not on the ad.
 - **d.** Go back to the **"Flow"** and click on the **"lab"** tab and click on **"AutoML prediction"**. Select the **"Clicked ad"** which corresponds to the target variable. Select **"Quick Prototypes"** and press **"CREATE"**.
 - **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only.
 
-<img width="823" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/39071020-58cd-43a7-810f-e14182284959">
+<img width="450" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/39071020-58cd-43a7-810f-e14182284959">
 
 
 
