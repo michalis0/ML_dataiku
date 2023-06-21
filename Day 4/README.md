@@ -3,7 +3,7 @@
 
 ## Table of contents 
 * [Clustering](#clustering)
-
+* [Graph Analytics](#graph-analytics)
 
 -----------------------------------
 ### **Clustering:**
