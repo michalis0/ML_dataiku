@@ -56,7 +56,7 @@ In this section, we are going to study neural networks ! More precisely, we will
 
 - **c.** In order for the model to connect please copy and paste this code and adapt the code to the one you have in the codebox. 
 
-**COMMENT**: Is it easy to adapt the code ? (you have to add the "import requests" line, and possibly adjust the name of the imdb_dataset_...)
+**COMMENT**: Is it easy to adapt the code ? (you have to add the 1) "import requests" line, and possibly adjust the name of the imdb_dataset_... , 3) Replace API_KEY with your API key from Huggingface)
 
 ```
 # -*- coding: utf-8 -*-
