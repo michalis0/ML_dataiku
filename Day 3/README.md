@@ -5,7 +5,7 @@
 ### **Step 1: Text Analytics:**
 -----------------------------------
 
-Today we are going to take a look at text Analytics. We are going to perform sentiment analysis using a [Financial News dataset](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis) (you will download below -- don't download from the above link...).
+Today we are going to take a look at text Analytics. We are going to perform sentiment analysis using a [Financial News dataset](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis). Download the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_training_set.csv)
 
 
 - Create a new project and name it "NLP: Financial News Dataset"; select the project. 
@@ -14,7 +14,7 @@ Today we are going to take a look at text Analytics. We are going to perform sen
     - **sentiment**: the sentiment related the post, can be positive, neutral or negative
     Our aim is to predict if the the tweet is positive, negative or neutral.
 
-- Download the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_training_set.csv)). Now import the dataset; you should be expecting 1791 rows and 2 columns.
+- Import the dataset; you should expect 1791 rows and 2 columns.
 
 - To perform this classification, select the dataset "1_financial_news_training_set" and click on the "lab" tab and click on "AutoML prediction". Select the "sentiment" which corresponds to the target variable. Select "Quick Prototypes" and press "CREATE".
 
