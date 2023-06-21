@@ -18,7 +18,11 @@ Today we are going to take a look at text Analytics. We are going to perform sen
 
 - To perform this classification, go to the "flow", select the dataset "1_financial_news_training_set" and click on the blue "LAB" button, then on "AutoML prediction". Select the "sentiment" which corresponds to the target variable. Select "Quick Prototypes" and press "CREATE".
 
-- This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. In fact, as we are performing text analytics, we need to vectorize the text in order for it to be handled by the model. To do so, navigate to DESIGN and select "Features handling". Now click on the toggle button of the tweet feature to "on" to activate it. Finally, select in the "Text handling" -> "TF/IDF vectorization", it should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/NLP_features_handling.png)). 
+- This is the space where we will be training the Machine Learning model ! Before clicking on "TRAIN", we will have a look at how the model is initialized. In fact, as we are performing text analytics, we need to vectorize the text in order for it to be handled by the model. To do so, navigate to DESIGN and select "Features handling". Now click on the toggle button of the tweet feature to "on" to activate it. Finally, select in the "Text handling" -> "TF/IDF vectorization".
+
+<img width="647" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/b4bddbe2-d5ce-4f1e-9c51-e40ef1cfbdab">
+
+  
 - Now we can train our models; select different models, for example: Logistic Regressio and XGBoost. What is the best accuracy that you get ? (expected: [0.922](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/NLP_results.png))). Now, double-click on the best model on the left and then in the new screen select "DEPLOY". 
 
 - Test the model with new data ! 
