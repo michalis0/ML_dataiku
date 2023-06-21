@@ -132,7 +132,7 @@ Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com
 <img width="691" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/83b12b88-fbf0-4344-89a0-5fac00dc9e09">
 
 
-    - Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed_day_2.png)
+Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed_day_2.png)
 
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv) (remember to download as "raw" file, clicking on the top right icon). Now, as done before, import the dataset naming it "testing_set".
