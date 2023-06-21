@@ -44,7 +44,7 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 
 
 ----
-####HOMEWORK (for the motivated ones!)
+#### HOMEWORK (for the motivated ones!)
 -----
 - Follow the clustering tutorial for [clustering for bikesharing](https://knowledge.dataiku.com/latest/use-cases/clustering/bike-sharing/tutorial-index.html).
 
@@ -53,4 +53,7 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 -----------------------------------
 
 (To install the plugin, sign-in to dataiku.com; click Plugins and search for Graph analytics. Install the plugin)
+
+- Download the dataset from here
+- Follow this [tutorial](https://www.dataiku.com/product/plugins/graph-analytics/)
 
