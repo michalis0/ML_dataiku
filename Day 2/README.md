@@ -110,7 +110,13 @@ First, click on the bird on the top left, to go to the projects screen.
 Using this dataset, we will predict if a user will click or not on the ad. 
 
 - **d.** Go back to the **"Flow"** and click on the **"lab"** tab and click on **"AutoML prediction"**. Select the **"Clicked ad"** which corresponds to the target variable. Select **"Quick Prototypes"** and press **"CREATE"**.
-- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only. Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_models_day_2.png))
+- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only.
+
+<img width="823" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/39071020-58cd-43a7-810f-e14182284959">
+
+
+
+Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_models_day_2.png))
 - **d** Now have try different algorithms:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.992)
     - Use the train ratio **0.8** and the Algorithm: **Gradient tree boosting**: What is the accuracy ? (expected: 0.992)
