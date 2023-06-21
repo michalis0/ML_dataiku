@@ -89,7 +89,7 @@ Prediction.write_with_schema(Prediction_df)
 
 
 ```
-It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_4_3.png)
+It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_4_3.png).
 This code reads a dataset called "imdb_dataset_Neural_Network" from Dataiku, sends the "review" column of the dataset to a Hugging Face API for sentiment analysis using the model "siebert/sentiment-roberta-large-english". The API response is stored in the "result" variable, and then the code adds a new column called "Predictions" to the dataset with the sentiment analysis results. Finally, it writes the modified dataset, renamed as "Predictions", back to Dataiku with the output schema.
 
 - **d.** Now click on **RUN** and go back to the flow, which should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_2_3.png). Finally, have a look of how the model predicted the movie reviews ! It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_3_3.png).
