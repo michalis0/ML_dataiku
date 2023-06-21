@@ -33,7 +33,12 @@ Today we are going to take a look at text Analytics. We are going to perform sen
 -------
 #### HOMEWORK
 -------
-- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to login to dataiku and install the plugin.
+- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to dataiku and install the plugin.
+
+<img width="600" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/21129c4f-09d6-41ad-9b3b-036b3ce40b80">
+
+Then, you should be be able to access it in a Flow under "Recipe" -> "Natural Language Processing"-> "Sentiment Analysis".
+
 
 
 -----------------------------------
