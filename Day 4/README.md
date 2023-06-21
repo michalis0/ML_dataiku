@@ -2,11 +2,11 @@
 # Day 4: Clustering and Graph Analytics
 
 ## Table of contents 
-* [Step 1 Clustering](#step-1-clustering)
+* [Clustering](#clustering)
 
 
 -----------------------------------
-### **Step 1 Clustering:**
+### **Clustering:**
 -----------------------------------
 
 - Create a new project: "Clustering: Customer Dataset".
