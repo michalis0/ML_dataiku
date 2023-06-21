@@ -94,6 +94,8 @@ This code reads a dataset called "imdb_dataset_Neural_Network" from Dataiku, sen
 
 - **d.** Now click on **RUN** and go back to the flow, which should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_2_3.png). Finally, have a look of how the model predicted the movie reviews ! It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_3_3.png).
 
+**Congratulations! You called your first Deep Learning API from the Internet. That's a BIG accomplishment!**
+
 
 
 
