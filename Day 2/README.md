@@ -127,6 +127,11 @@ Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com
     - What is the best model ? (expected:  KNN - 0.993 )
     - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_classification.png)
 
+**QUESTION:** Which are the characteristics that mostly affect if someone will click on an ad or not?
+
+<img width="691" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/83b12b88-fbf0-4344-89a0-5fac00dc9e09">
+
+
     - Now click on the best model and click on "DEPLOY". Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed_day_2.png)
 
 - **f.** Test the model with new data ! 
