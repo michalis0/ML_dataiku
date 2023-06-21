@@ -19,7 +19,19 @@ and have a look at the different informations given by the clusters given under 
 
 
 - Click on **DEPLOY** and select **DEPLOY A RETRAINABLE MODEL TO THE FLOW"**. It should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_3.png).
-- Now click on the **"Mall_Customers"** and select **"Cluster"**, like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_5.png). And select the model that just have just created and click on **CREATE**, you can directly click on **RUN**. Your flow should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_6.png)
+
+What we did above created a model using unlabelled data by considering the similarities of the objects. Essentially it computed the cluster centers. But we cannot see the cluster assignment. For this we apply the model on the same data.
+
+- In the Flow, click on the **"4_clustering_dataset_cleaned"**, then scroll down on the tab on the right and select the green **"Cluster"** button.
+- 
+<img width="388" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3d7e1bf3-e821-4dbc-80dc-4be5dd6b367b">
+
+
+-    In the popup window, select the model that just have just created and click on **CREATE**, you can directly click on **RUN**. Your flow should now look like
+
+<img width="639" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/48a2c65e-a634-4732-81ed-93ff586a3079">
+
+
 - We will now have a closer look at the clusters that have been created. Therefore click on the new dataset created and select **Charts**. Select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, add the different features in the sections "Details". It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_7.png).
 
 Other things you can explore under clustering, is to try the different algorithms:
