@@ -54,6 +54,11 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 
 (To install the plugin, sign-in to dataiku.com; click Plugins and search for Graph analytics. Install the plugin)
 
-- Download the dataset from here
+- Download the dataset from here. You can delete most of the columns, leave only the columns "Actor" and "Film".
 - Follow this [tutorial](https://www.dataiku.com/product/plugins/graph-analytics/)
+
+You can visualize the graph of actors and movies. It should look like this:
+
+<img width="1318" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/feffc622-f20a-4e1c-a4f5-6756bc70de27">
+
 
