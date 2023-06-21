@@ -31,6 +31,10 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 <img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c73e9afb-72e1-4e34-a3db-31a8dc51647d">
 
 
+----
+####HOMEWORK (for the motivated ones!)
+-----
+- Follow the clustering tutorial for [clustering for bikesharing](https://knowledge.dataiku.com/latest/use-cases/clustering/bike-sharing/tutorial-index.html).
 
 -----------------------------------
 ### **Step 2: Graph Analytics:**
