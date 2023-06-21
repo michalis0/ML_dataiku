@@ -52,11 +52,11 @@ In this section, we are going to study neural networks ! More precisely, we will
 
 - **a.** To do so please start by downloading the dataset that we will use. It can be found under [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/imdb_dataset_Neural_Network.csv) link. Create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
 
-- **b.** Training a Neural Network model is costly, so we will use a pre-built one. We use the API from HuggingFace that allows use to access the pre-trained model. The actual model and its documentation can be found [here](https://huggingface.co/siebert/sentiment-roberta-large-english). To connect the dataset and use the model through the API, we will need to use some python code. Therefore click on **RECIPE** - **Code** and select **PYTHON** like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_1_3.png). Add the training set that you just imported and create a new dataset called **Prediction** and click on **CREATE RECIPE**. 
+- **b.** Training a Neural Network model is costly, so we will use a pre-built one. We use the API from HuggingFace that allows use to access the pre-trained model. The actual model and its documentation can be found [here](https://huggingface.co/siebert/sentiment-roberta-large-english). To connect the dataset and use the model through the API, we will need to use some python code. Therefore click on **RECIPE** - **Code** and select **PYTHON** like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/HELP/PICTURE_1_3.png). Add the training set that you just imported and create a new dataset called **Prediction** (make sure it's <ins>capital "P"</ins>) and click on **CREATE RECIPE**. 
 
 - **c.** In order for the model to connect please copy and paste this code and adapt the code to the one you have in the codebox. 
 
-**COMMENT**: Is it easy to adapt the code ? (you have to add the 1) "import requests" line, and possibly adjust the name of the imdb_dataset_... , 3) Replace API_KEY with your API key from Huggingface)
+**COMMENT**: Copy paste the code below. You may have to adapt mildly. (1) adjust the names of the datasets if you changed them , 2) Replace API_KEY with your API key from Huggingface)
 
 ```
 # -*- coding: utf-8 -*-
