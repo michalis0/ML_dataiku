@@ -3,7 +3,7 @@
 
 ## Table of contents 
 * [Step 1 Clustering](#step-1-clustering)
-* [Step 2 Time series prediction](#step-2-time-series-prediction)
+
 
 -----------------------------------
 ### **Step 1 Clustering:**
@@ -18,11 +18,8 @@
 - **g.** We will now have a closer look at the clusters that have been created. Therefore click on the new dataset created and select **Charts**. Please select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, please add the different features in the sections "Details". It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_7.png).
 
 -----------------------------------
-### **Step 2: Time Series Prediction:**
+### **Step 2: Graph Analytics:**
 -----------------------------------
 
-Go to the  
-
-**Issues with the plugin**
-(To install the plugin, open the  Apps menu, click Plugins and search for Graph analytics. Should look something like this. Install the plugin)
+(To install the plugin, sign-in to dataiku.com; click Plugins and search for Graph analytics. Install the plugin)
 
