@@ -37,7 +37,10 @@ What we did above created a model using unlabelled data by considering the simil
 <img width="642" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/155f7911-f889-44f1-bb89-36e90440c3c8">
 
 
-- Select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, add the different features in the sections "Details". It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_7.png).
+- Select **Boxplot** : Show Y-axis "Spending score" by X-axis "cluster_label". It should look like this:
+
+<img width="846" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/b3e814b7-4da7-4294-9948-60edd44e62a3">
+
 
 Other things you can explore under clustering, is to try the different algorithms:
 
