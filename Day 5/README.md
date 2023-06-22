@@ -4,7 +4,7 @@
 ### **Day 5: Chatbots - AI for social Good - Generative AI - Risks of AI**
 
 -----------------------------------
-### **Step 1: Chatbots:**
+### ChatGPT for Summarizing Text**
 -----------------------------------
 
 Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize newspapers articles. 
@@ -19,40 +19,3 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 **e.**: The text has been summarized ! Your flow should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_8_5.png) and the output dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_9_5.png)
 
------------------------------------
-### **Step 2: Graph Analytics:**
-
------------------------------------
-
-
-To install the plugin, open the  Apps menu, click Plugins and search for Graph analytics.
-should look something like this
-Install the plugin
-
-go back to the flow
-
-
-
-
-
-
-Day 5: 
-
-1. Chatbots (20 min)
-
-2. AI for social goods: the moral machine (3-5 minutes) https://www.craiyon.com/ 
-3. Generative AI: (5-10 minutes - tesitng art, drawing,p hoto..)
-4. 
-chatbots
-AI for social Good 
-Exercise:
-The Moral Machine
-Generative AI
-https://www.craiyon.com
-Autodesk dreamcatcher
-Risks of AI
-Bias/Fairness (Amazon
-Data Privacy and security
-Reliability (Explainability examples)
-Accountability
-Autonomous driving (who is accountable?)
