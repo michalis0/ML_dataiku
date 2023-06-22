@@ -8,30 +8,3 @@
 * [Day 3 Text Analytics Neural Networks](#day-3-text-analytics-neural-networks)
 * [Day 4 Clustering Graph Analytics](#day-4-clustering-graph-analytics)
 * [Day 5 Generative AI](#day-5-generative-ai)
-
-
-
------------
-### **Day 1 Data Cleaning and Visualization**
-#### **Table of contents** 
-* **Step 1** Launch DataIku
-* **Step 2** Import the dataset
-* **Step 3** Data Cleaning
-* **Step 4** Data Visualization
-* **Step 5** Export the dataset
-
-
------------
-### **Day 2 Regression and Classification**
-#### **Table of contents** 
-* **Step 1** Regression
-* **Step 2** Classification
-
-----------------------
-### **Day 3 Text Analytics Neural Networks**
-
-----------------------
-### **Day 4 Clustering Graph Analytics**
-
-----------------------
-### **Day 5 Generative AI**
