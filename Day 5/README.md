@@ -7,7 +7,7 @@
 ### **Step 1: Chatbots:**
 -----------------------------------
 
-Today we will use the OPENAI ChatGPT API ! In fact we will use it in order to summarize newspapers articles. 
+Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize newspapers articles. 
 
 **a.** Begin by downloading the two newspaper articles we will summarize using ChatGPT. The articles can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/text_articles_dataset.csv). Those two articles were taken from the BBC Finance, the first one talks about Interest Rates and the second one about Crypto in the USA. 
 
