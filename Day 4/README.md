@@ -32,7 +32,12 @@ What we did above created a model using unlabelled data by considering the simil
 <img width="639" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/48a2c65e-a634-4732-81ed-93ff586a3079">
 
 
-- We will now have a closer look at the clusters that have been created. Therefore click on the new dataset created and select **Charts**. Select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, add the different features in the sections "Details". It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_7.png).
+- We will now have a closer look at the clusters that have been created. **Double-click** on the newly created scored dataset (4_clustering_dataset_cleaned_scored, possibly!) and select **Charts**.
+
+<img width="642" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/155f7911-f889-44f1-bb89-36e90440c3c8">
+
+
+- Select **Scatter plot** and add on the X-axis: the cluster_labels and on the Y-axis the spending score (1-100). Finally, add the different features in the sections "Details". It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_7.png).
 
 Other things you can explore under clustering, is to try the different algorithms:
 
