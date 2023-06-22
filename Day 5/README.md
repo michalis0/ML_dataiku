@@ -22,3 +22,5 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 Congrats! You have used cutting-edge advances of AI and Machine Learning!
 
+For [more](https://content.dataiku.com/email-llm-demo?utm_campaign=GLO+CONTENT+ChatGPT+%26+LLMs+March+2023&utm_medium=email&_hsmi=260388734&_hsenc=p2ANqtz-9Pr_dfkoaZufRgm3jgYC9oYxUUz66dNBYkpZl810Obz32bu7hY7ihY726mj6TdRF-OgyIYvDkEUtTe9OKn_RcxnrnhTQ&utm_content=260390385&utm_source=hs_email) info.
+
