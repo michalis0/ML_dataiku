@@ -4,7 +4,7 @@
 ### **Day 5: Chatbots - AI for social Good - Generative AI - Risks of AI**
 
 -----------------------------------
-### ChatGPT for Summarizing Text**
+### ChatGPT for Summarizing Text
 -----------------------------------
 
 Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize newspapers articles. 
