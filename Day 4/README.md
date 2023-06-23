@@ -60,6 +60,10 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 ### **Graph Analytics**
 -----------------------------------
 
+<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/25259d96-227d-4203-b270-74783257ad8e">
+
+Graphs are a prevalent way of modeling connections between entities. 
+
 (To install the plugin, sign-in to dataiku.com; click Plugins and search for Graph analytics. Install the plugin)
 
 - Download the dataset from here. You can delete most of the columns, leave only the columns "Actor" and "Film".

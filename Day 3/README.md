@@ -51,7 +51,10 @@ Then, you should be be able to access it in a Flow under "Recipe" -> "Natural La
 ### **Step 2: Neural Networks:**
 -----------------------------------
 
-In this section, we are going to study neural networks ! More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use IMDB movie dataset and predict if movie reviews are positive or negative.
+<img width="370" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cfb926d-3aed-4865-b766-75c2d71334c4">
+
+
+In this section, we are going to study neural networks ! Neural Networks (NNs) and Deep Learning represent some the most exciting areas in the field of AI. More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use IMDB movie dataset and predict if movie reviews are positive or negative.
 
 - **a.** To do so please start by downloading the dataset that we will use. It can be found under [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/imdb_dataset_Neural_Network.csv) link. Create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
 
