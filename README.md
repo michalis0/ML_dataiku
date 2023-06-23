@@ -10,4 +10,4 @@
 * [Day 4 Clustering & Graph Analytics](/Day%204/README.md)
 * [Day 5 Generative AI](/Day%205/README.md)
 
-The first few days will be very detailed. As we go on, you are expected to do more things on your own!
+The descriptions in the first few days will be very detailed. As we go on, and you become more acquainted with the Dataiku tool, some things will be implied, and not described in such great detail...
