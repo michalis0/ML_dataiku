@@ -42,18 +42,18 @@ Within the newly created project, you can import the dataset by following these 
 
 - Click on the **"IMPORT YOUR FIRST DATASET"** - **"upload your files"** and drag the dataset you just downloaded *(1_boston_housing_dataset.csv)*. Once the dataset is imported click on "CREATE". You just imported your dataset! 
 - **c.** Have a look at the dataset and the different features (or columns), we have:
-    - **crim:** per capita crime rate by town.
-    - **zn:** proportion of residential land zoned for lots over 25,000 sq.ft.
-    - **chas:** charles River dummy variable (1 if tract bounds river; 0 otherwise)
-    - **nox:** nitric oxides concentration (parts per 10 million)
-    - **rm:** average number of rooms per dwelling
-    - **age:** proportion of owner-occupied units built prior to 1940
-    - **dis:** weighted distances to five Boston employment centres
-    - **rad:** index of accessibility to radial highways
-    - **tax:** full-value property-tax rate per $10,000 
-    - **ptratio:** pupil-teacher ratio by town
-    - **lstat:** % lower status of the population
-    - **medv:** Median value of owner-occupied homes in $1000's -> **Target variable**
+    - **crime_rate:** per capita crime rate by town.
+    - **residential_land_zone:** proportion of residential land zoned for lots over 25,000 sq.ft.
+    - **bounds_river:** charles River dummy variable (1 if tract bounds river; 0 otherwise)
+    - **nitric_oxides_concentration:** nitric oxides concentration (parts per 10 million)
+    - **average_rooms:** average number of rooms per dwelling
+    - **pre_1940_units:** proportion of owner-occupied units built prior to 1940
+    - **employment_distance:** weighted distances to five Boston employment centres
+    - **accessibility_highways:** index of accessibility to radial highways
+    - **property_tax_rate:** full-value property-tax rate per $10,000 
+    - **pupil_teacher_ratio:** pupil-teacher ratio by town
+    - **lower_status_population:** % lower status of the population
+    - **median_home_value:** Median value of owner-occupied homes in $1000's -> **Target variable**
 
 - **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars or medv**.
 
