@@ -8,6 +8,13 @@
 -----------------------------------
 ### **Clustering:**
 -----------------------------------
+In clustering we try to create groups of "similar" objects. We use clustering when we don't have labelled data.
+
+<img width="446" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cc1c2b4-30c1-48b7-ba86-730034646309">
+
+<img width="446" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a932a1b0-c3b2-4eeb-8a84-d4ed9996015b">
+
+
 
 - Create a new project: "Clustering: Customer Dataset".
 - To perform clustering, import the dataset dataset **"4_clustering_dataset_cleaned"**, which can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/4_clustering_dataset_cleaned.csv). 
