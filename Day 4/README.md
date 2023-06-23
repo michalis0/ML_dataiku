@@ -14,6 +14,8 @@ In clustering we try to create groups of "similar" objects. We use clustering wh
 
 <img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a932a1b0-c3b2-4eeb-8a84-d4ed9996015b">
 
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/91b1aa88-2991-4c82-8f50-b3b2f661c8c0">
+
 
 
 - Create a new project: "Clustering: Customer Dataset".
