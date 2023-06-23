@@ -1,6 +1,9 @@
 # Day 1 Data Cleaning and Visualization
 
-Before you do anything in machine learning, you have to find/create a dataset, "clean" it and wrangle around with the data, and possibly visualize it so that you get a better understanding. We will deal with this part today.
+A machine learning scientist will spend 80% of his/her time on data wranging: finding/creating/labelling a dataset, "cleaning" it and getting insights with the aid of visualization. We will deal with this part today.
+
+<img width="450" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/48c6fde2-3c60-47f3-931d-49522181c1af">
+
 
 ## Table of contents 
 * [Step 1 Launch Dataiku](#step-1-dataiku)
@@ -178,6 +181,9 @@ We have only scratched the surface, on what you need to do as a data and machine
 ### **Hour 2: Data Visualization:**
 -----------------------------------
 
+<img width="250" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/54d8f071-1ca9-4e2a-9abc-f57edae18112">
+
+
 We will now focus on **Data Visualization**, with which we can comprehend data patterns and relationships. Visualization also provides insights in a more intuitive way, aids understanding and decision-making. We will perform **4 different visualizations:**
 
 - **Plot 1:** Scatter Plot of Average Number of Rooms vs. Housing Prices (scatter plot)
@@ -211,6 +217,6 @@ To export the dataset, go back to the **"flow"** and click on **"1_boston_housin
 ### ** HOMEWORK **
 -----------------------------------
 - Pick a dataset you have been working with for your research, and do 1 or 2 visualizations of it. Share with the rest of the class.
-- For more information consult the dataiku tutorials on [data visualization](https://knowledge.dataiku.com/latest/data-viz/index.html#) and for the more ambitious ones how to code an [interactive webapp]([url](https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html)https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html) with Bokeh inside dataiku.
+- For more information consult the dataiku tutorials on [data visualization](https://knowledge.dataiku.com/latest/data-viz/index.html#) and for the more ambitious ones how to code an [interactive webapp](https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html) with Bokeh inside dataiku.
 
 
