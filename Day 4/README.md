@@ -8,11 +8,11 @@
 -----------------------------------
 ### **Clustering:**
 -----------------------------------
-In clustering we try to create groups of "similar" objects. We use clustering when we don't have labelled data.
+In clustering we try to create groups of "similar" objects. We use clustering when we don't have labelled data. Question: is the following clustering a proper one? 
 
-<img width="446" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cc1c2b4-30c1-48b7-ba86-730034646309">
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cc1c2b4-30c1-48b7-ba86-730034646309">
 
-<img width="446" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a932a1b0-c3b2-4eeb-8a84-d4ed9996015b">
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a932a1b0-c3b2-4eeb-8a84-d4ed9996015b">
 
 
 
