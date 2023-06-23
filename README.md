@@ -1,4 +1,4 @@
-# **Dataiku tutorial for Machine Learning:**
+# **Hands-on Machine Learning with Dataiku**
 
 <img width="807" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d5f50cfd-0a0b-4f94-b837-ed7476f897ec">
 
