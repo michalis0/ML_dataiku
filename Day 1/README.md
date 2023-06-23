@@ -58,7 +58,7 @@ Within the newly created project, you can import the dataset by following these 
     - **lower_status_population:** % lower status of the population
     - **median_home_value:** Median value of owner-occupied homes in $1000's -> **Target variable**
 
-- **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars or medv**.
+- **d.** The Boston Housing dataset is a collection of data regarding housing prices and various attributes in different suburbs of Boston. **The variable we aim to predict using machine learning models is the median value of owner-occupied homes in thousands of dollars or median_home_value**.
 
 
 **Check**: Your dataset should have **502 rows** and **12 columns**. 
@@ -108,7 +108,7 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 -----------------------------------
 - **What:** Identify and handle missing values in your dataset. 
 
-- **How:** You will see that the first column (crim) has some rows with no values. Click on a cell that has no data (in the column "crim") and select "Remove rows where cell is empty"
+- **How:** You will see that the first column (crime_rate) has some rows with no values. Click on a cell that has no data (in the column "crime_rate") and select "Remove rows where cell is empty"
 
 <img width="341" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/89879dcc-25ef-4b1b-beea-717f9a0f6db8">
 
@@ -120,7 +120,7 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 -----------------------------------
 - **What:** Identify and remove any outliers records from your dataset. 
 
-- **How:** Click on the right part of column "zn" and click on **"Analyze"**, this opens a popup which shows potential outliers. 
+- **How:** Click on the right part of column "residential_land_zone" and click on **"Analyze"**, this opens a popup which shows potential outliers. 
 
 <img width="175" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/99c15276-7348-4f30-b51c-cf6bdda724ff">
 
@@ -138,7 +138,7 @@ Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 -----------------------------------
 - **What:** Rename columns for clarity
 
-- **How:** Click on "medv" and click **"Rename"**, and insert "target_medv". This columns is the target column, which corresponds to the value we would like to predict with our model. It is a good approach to give it the name of the target variable, in order to add some clarity in the dataset. 
+- **How:** Click on "median_home_value" and click **"Rename"**, and insert "target_medv". This columns is the target column, which corresponds to the value we would like to predict with our model. It is a good approach to give it the name of the target variable, in order to add some clarity in the dataset. 
 
 Once this is done, click on **"RUN"** (bottom left). 
 
@@ -198,7 +198,7 @@ We will now focus on **Data Visualization**, with which we can comprehend data p
 - **What:** Visualize a scatter plot to explore the relationship between age and revenue.
 - **How:** Click on "1_boston_housing_training_set" then click on the tab **"Charts"** - this is how we are going to create our plots.
 
-I will walk you through the first plot - *Scatter Plot of Average Number of Rooms vs. Housing Prices*, where we will plot the average number of rooms per dwelling (rm) on the x-axis and the Housing prices on the y-axis (target_medv). Select **"Scatter plot"** and drag and drop rm (x_axis) and target_medv (y_axis). Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard (which is also accessible from the project root).
+I will walk you through the first plot - *Scatter Plot of Average Number of Rooms vs. Housing Prices*, where we will plot the average number of rooms per dwelling (average_rooms) on the x-axis and the Housing prices on the y-axis (target_medv). Select **"Scatter plot"** and drag and drop rm (x_axis) and target_medv (y_axis). Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard (which is also accessible from the project root).
 
     
 Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to explore different graphs) (Your dashboard should look something like this:
