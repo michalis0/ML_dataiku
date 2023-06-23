@@ -1,6 +1,6 @@
 # Day 1 Data Cleaning and Visualization
 
-Before you do anything in machine learning, you have to find/create a dataset, "clean" it and wrangle around with the data, and possibly visualize it so that you get a better understanding. We will deal with this part today.
+A machine learning scientist will spend 80% of his/her time on data wranging: finding/creating/labelling a dataset, "cleaning" it and getting insights with the aid of visualization. We will deal with this part today.
 
 ## Table of contents 
 * [Step 1 Launch Dataiku](#step-1-dataiku)
