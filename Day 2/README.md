@@ -20,7 +20,7 @@ We will try to predict the selling price of a house, given its characteristics (
 <img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6b1c944f-2ac4-4426-9875-30b90d781f51">
 
 -   click on **"AutoML prediction"**. Select the **"target_medv"** which corresponds to the target variable. Pick **"Quick Prototypes"** and press **"CREATE"**.
-- **c.**This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
+- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
     -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
     - **BASIC - Metric:** In our case, we are interested in the R2 Score
