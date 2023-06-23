@@ -211,6 +211,6 @@ To export the dataset, go back to the **"flow"** and click on **"1_boston_housin
 ### ** HOMEWORK **
 -----------------------------------
 - Pick a dataset you have been working with for your research, and do 1 or 2 visualizations of it. Share with the rest of the class.
-- For more information consult the dataiku tutorials on [data visualization](https://knowledge.dataiku.com/latest/data-viz/index.html#) and for the more ambitious ones how to code an [interactive webapp]([url](https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html)https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html) with Bokeh inside dataiku.
+- For more information consult the dataiku tutorials on [data visualization](https://knowledge.dataiku.com/latest/data-viz/index.html#) and for the more ambitious ones how to code an [interactive webapp]([url](https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html)[https://knowledge.dataiku.com/latest/data-viz/webapps/tutorial-python-bokeh.html] with Bokeh inside dataiku.
 
 
