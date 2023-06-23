@@ -2,6 +2,9 @@
 
 A machine learning scientist will spend 80% of his/her time on data wranging: finding/creating/labelling a dataset, "cleaning" it and getting insights with the aid of visualization. We will deal with this part today.
 
+<img width="450" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/48c6fde2-3c60-47f3-931d-49522181c1af">
+
+
 ## Table of contents 
 * [Step 1 Launch Dataiku](#step-1-dataiku)
 * [Step 2 Import the dataset](#step-2-import-the-dataset)
