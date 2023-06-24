@@ -2,7 +2,8 @@
 
 Prof. Michalis Vlachos and  Alexis Erne
 
-<img width="807" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d5f50cfd-0a0b-4f94-b837-ed7476f897ec">
+<img width="800" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1badbcd0-ed0e-48bd-9fac-2e7e2879d2e1">
+
 
 
 ## Table of contents 
