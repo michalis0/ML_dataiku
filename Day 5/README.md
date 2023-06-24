@@ -3,8 +3,7 @@
 
 ### **Day 5: Chatbots - AI for social Good - Generative AI - Risks of AI**
 
-<img width="362" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/606218ac-764c-4704-84f0-33f2c6913d19">
-
+<img width="349" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9e938ecb-38c2-4d79-8a5f-c9d8311acd75">
 
 -----------------------------------
 ### ChatGPT for Summarizing Text
