@@ -185,7 +185,8 @@ We have only scratched the surface, on what you need to do as a data and machine
 ### **Hour 2: Data Visualization:**
 -----------------------------------
 
-<img width="250" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/54d8f071-1ca9-4e2a-9abc-f57edae18112">
+<img width="250" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1540718b-4af9-4a91-b8e1-47b6663390a1">
+
 
 
 We will now focus on **Data Visualization**, with which we can comprehend data patterns and relationships. Visualization also provides insights in a more intuitive way, aids understanding and decision-making. We will perform **4 different visualizations:**
