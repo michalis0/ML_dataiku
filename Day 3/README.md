@@ -5,7 +5,7 @@
 ### **Step 1: Text Analytics:**
 -----------------------------------
 
-<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1aaca065-0456-4945-9f6a-dab7159aad0c">
+<img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ff1c5b3b-82e8-4e09-b50a-95e7979b37db">
 
 
 Today we are going to take a look at text Analytics. We are going to perform sentiment analysis using a [Financial News dataset](https://www.kaggle.com/code/khotijahs1/nlp-financial-news-sentiment-analysis). Download the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_training_set.csv).
