@@ -36,14 +36,16 @@ You just created your first project ! It should look like [this](https://github.
 -----------------------------------
 ### **Step 2: Import the dataset:**
 -----------------------------------
-However, you new project has no dataset yet. Let us add one.
+However, your new project has no dataset yet. Let us add one.
 Within the newly created project, you can import the dataset by following these steps:
 - **a.** Download the dataset we will be using. You can find the dataset of this first day under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Dataset/NotCleaned/1_boston_housing_dataset.csv) and click on the download button "Download raw file".
 
-<img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a194b207-37d0-4fe7-b401-53df771e54db">
+<img width="207" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/db4be753-bd43-4b0e-a923-fdff74d1ce49">
+
 
 - **b.**
-<img width="329" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/e95ed83d-197c-432e-b1d3-42da3d4a6152">
+<img width="257" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/0b76d4c9-c7ab-4b19-8256-bf7ef3e3847b">
+
 
 - Click on the **"IMPORT YOUR FIRST DATASET"** - **"upload your files"** and drag the dataset you just downloaded *(1_boston_housing_dataset.csv)*. Once the dataset is imported click on "CREATE". You just imported your dataset! 
 - **c.** Have a look at the dataset and the different features (or columns), we have:
