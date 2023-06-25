@@ -23,10 +23,12 @@ Please follow this link: https://www.dataiku.com/company/academic-program/. Go t
 <img width="1276" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c068da44-ba84-4b13-96c3-384b58d37cb3">
 
 
-**Note for later:** Because this is on the cloud, it may "turn-off" later. If this happens, when you login you may have to turn ON your instance again from the main dashboard. Once powered-up, click on "Open Instance" to load the main view of DataIku.
+**Note for later:** Because this is on the cloud, it may "turn-off" later. If this happens, when you sign-in to [dataiku.com](dataiku.com) you may have to turn ON your instance again from the main dashboard. Once powered-up, click on blue "Open Instance" to load the main view of DataIku.
+
+<img width="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
 
 
-Once the account is created, create a new project. This is done by:
+With the account is created, create a new project. This is done by:
 - Clicking on the **"New Project"** button - **"Blank Project"**
 - Entering the name **"Regression: Boston Housing Dataset"**
 - Click on **"CREATE"**
