@@ -36,14 +36,14 @@ Today we are going to take a look at text Analytics. We are going to perform sen
 -------
 #### HOMEWORK
 -------
-- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to dataiku and install the plugin.
+- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to [dataiku](https://www.dataiku.com) and then install the plugin.
 
-<img width="600" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/21129c4f-09d6-41ad-9b3b-036b3ce40b80">
+<img width="1040" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/0f644593-5c7c-4c24-b3bd-8b71a1b9b77b">
 
-Then, you should be be able to access it in a Flow under "Recipe" -> "Natural Language Processing"-> "Sentiment Analysis".
 
-<img width="250" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ffdef52c-5c29-4c69-b129-b888bf5aee9c">
+Then, you should be able to access it in a Flow under "Recipe" -> "Natural Language Processing"-> "Sentiment Analysis".
 
+<img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fea90acf-704d-4cdc-892b-8dcc6d7a8885">
 
 
 
@@ -51,7 +51,7 @@ Then, you should be be able to access it in a Flow under "Recipe" -> "Natural La
 ### **Step 2: Neural Networks:**
 -----------------------------------
 
-<img width="370" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cfb926d-3aed-4865-b766-75c2d71334c4">
+<img width="363" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/487fb7ac-218f-4ed8-a292-719ff13e1ca4">
 
 
 In this section, we are going to study neural networks ! Neural Networks (NNs) and Deep Learning represent some the most exciting areas in the field of AI. More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use IMDB movie dataset and predict if movie reviews are positive or negative.
