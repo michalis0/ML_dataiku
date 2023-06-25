@@ -115,10 +115,11 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **How:** You will see that the first column (crime_rate) has some rows with no values. Click on a cell that has no data (in the column "crime_rate") and select "Remove rows where cell is empty"
 
-<img width="341" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/89879dcc-25ef-4b1b-beea-717f9a0f6db8">
-
+<img width="348" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2926a84d-ee09-4d23-9ae6-159b8e6366aa">
 
 - **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
+
+**Note:** In the so-called recipe, we will be adding several operations that we wish to do. We will apply them all at the end.
 
 -----------------------------------
 #### **Step 3.2: Handling Outliers:**
