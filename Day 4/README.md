@@ -70,7 +70,7 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 ### **Graph Analytics**
 -----------------------------------
 
-<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/25259d96-227d-4203-b270-74783257ad8e">
+<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2325b518-87cb-47e3-86c7-372c62e99ae7">
 
 Graphs are a prevalent way of modeling connections between entities. 
 
