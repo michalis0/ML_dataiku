@@ -22,8 +22,9 @@ Please follow this link: https://www.dataiku.com/company/academic-program/. Go t
 
 <img width="1276" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c068da44-ba84-4b13-96c3-384b58d37cb3">
 
-
+```
 **Note for later:** Because this is on the cloud, it may "turn-off" later. If this happens, when you sign-in to [dataiku.com](dataiku.com) you may have to turn ON your instance again from the main dashboard. Once powered-up, click on blue "Open Instance" to load the main view of DataIku.
+```
 
 <img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
 
@@ -119,9 +120,9 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
 
-'''
+```
 **Note:** In the so-called recipe, we will be adding several operations that we wish to do. We will apply them all at the end.
-'''
+```
 
 -----------------------------------
 #### **Step 3.2: Handling Outliers:**
