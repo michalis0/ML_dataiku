@@ -1,6 +1,6 @@
 # **Hands-on Machine Learning with Dataiku**
 
-Prof. Michalis Vlachos and  Alexis Erne
+Prof. [Michalis Vlachos](https://people.unil.ch/michalisvlachos/) and  Alexis Erne
 
 <img width="800" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1badbcd0-ed0e-48bd-9fac-2e7e2879d2e1">
 
