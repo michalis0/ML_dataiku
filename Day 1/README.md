@@ -214,7 +214,10 @@ We will now focus on **Data Visualization**, with which we can comprehend data p
 -----------------------------------
 
 - **What:** Visualize a scatter plot to explore the relationship between age and revenue.
-- **How:** Click on "1_boston_housing_training_set" then click on the tab **"Charts"** - this is how we are going to create our plots.
+- **How:** Click on "1_boston_housing_training_set" then click on the tab **"Charts"** (it is on the right, 2nd tab)
+
+<img width="369" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8625d7bd-6079-476d-ba94-a60dcc4563cf">
+
 
 I will walk you through the first plot - *Scatter Plot of Average Number of Rooms vs. Housing Prices*, where we will plot the average number of rooms per dwelling (average_rooms) on the x-axis and the Housing prices on the y-axis (target_medv). Select **"Scatter plot"** and drag and drop rm (x_axis) and target_medv (y_axis). Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard (which is also accessible from the project root).
 
