@@ -25,7 +25,7 @@ Please follow this link: https://www.dataiku.com/company/academic-program/. Go t
 
 **Note for later:** Because this is on the cloud, it may "turn-off" later. If this happens, when you sign-in to [dataiku.com](dataiku.com) you may have to turn ON your instance again from the main dashboard. Once powered-up, click on blue "Open Instance" to load the main view of DataIku.
 
-<img width="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
+<img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
 
 
 With the account is created, create a new project. This is done by:
