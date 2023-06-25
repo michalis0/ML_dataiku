@@ -92,19 +92,18 @@ The cleaning steps we will go though:
 You should currently see the table containing the dataset (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_init.png)). 
 
 Now click on the top left part of the window "Regression: Boston Housing Dataset".
-<img width="815" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1113c513-f8f4-4ad7-bea5-dec5150b7166">
+<img width="260" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c2e12556-7610-47e0-a446-ecc9a7057368">
 
 
 This will show your [project](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_1_init_project_overview.png), you can now click on **"GO TO FLOW"**. 
 
-<img width="471" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/52699461-fb78-4942-a632-cb71c857ce9b">
+<img width="409" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/668b356a-10b9-410c-9ef6-6dcbf9923915">
 
 
 The **flow** allows you to do various operations on your datasets, perform analyses and machine learning tasks. 
 
 You can now select on the top the button **"RECIPE"** and select **"Visual"** and click on **"Data preparation"**. 
-<img width="516" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9df3a369-be31-473b-a422-343ad69461f4">
-
+<img width="529" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/da4b4f31-60fc-464f-ab50-55735b66fccb">
 
 Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE RECIPE"**. This creates a space where you can perform data cleaning techniques. (it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_cleaning.png)) Let's start cleaning ! 
 
