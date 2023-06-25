@@ -219,10 +219,16 @@ We will now focus on **Data Visualization**, with which we can comprehend data p
 <img width="369" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8625d7bd-6079-476d-ba94-a60dcc4563cf">
 
 
-I will walk you through the first plot - *Scatter Plot of Average Number of Rooms vs. Housing Prices*, where we will plot the average number of rooms per dwelling (average_rooms) on the x-axis and the Housing prices on the y-axis (target_medv). Select **"Scatter plot"** and drag and drop rm (x_axis) and target_medv (y_axis). Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard (which is also accessible from the project root).
+I will walk you through the first plot 
+
+- *Scatter Plot of Average Number of Rooms vs. Housing Prices*. On the left side we see the columns of the dataset.  In the combo-box in the middle select **"Scatter plot"**. Drag and drop the column **average_rooms** on the "Show X" position and the **target_medv** on the "Show Y".
+<img width="798" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d5e5095a-26f9-4a99-b2b7-be327f848eca">
+
+
+Click on **"PUBLISH"** then **"CREATE"**, this creates a Dashboard.
 
     
-Do the same for the other plots ! (you can try scatter plots, pie charts, feel free to explore different graphs) (Your dashboard should look something like this:
+Do the same for the other plots ! (you can try scatter plots, boxplots, etc. Feel free to explore different graphs) (Your dashboard should look something like this:
 
 <img width="751" alt="image" src="https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_4_dashboard.png">
 
@@ -231,7 +237,7 @@ Do the same for the other plots ! (you can try scatter plots, pie charts, feel f
 -----------------------------------
 ### **Step 5: Export the dataset:**
 -----------------------------------
-To export the dataset, go back to the **"flow"** and click on **"1_boston_housing_training_set"** then open the panel and click on **"Export"**. If you did not manage to do all the tasks, the cleaned dataset can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv). Please have it downloaded for tomorrow, as we will use it for the machine learning models ! 
+To export the dataset, go back to the **"Flow"** and click on **"1_boston_housing_training_set"** then open the panel and click on **"Export"**. If you did not manage to do all the tasks, the cleaned dataset can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv). Please have it downloaded for tomorrow, as we will use it for the machine learning models ! 
 
 
 -----------------------------------
