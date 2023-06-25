@@ -119,7 +119,9 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
 
+'''
 **Note:** In the so-called recipe, we will be adding several operations that we wish to do. We will apply them all at the end.
+'''
 
 -----------------------------------
 #### **Step 3.2: Handling Outliers:**
