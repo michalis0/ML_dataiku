@@ -22,9 +22,9 @@ Please follow this link: https://www.dataiku.com/company/academic-program/. Go t
 
 <img width="1276" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c068da44-ba84-4b13-96c3-384b58d37cb3">
 
-```
+
 **Note for later:** Because this is on the cloud, it may "turn-off" later. If this happens, when you sign-in to [dataiku.com](dataiku.com) you may have to turn ON your instance again from the main dashboard. Once powered-up, click on blue "Open Instance" to load the main view of DataIku.
-```
+
 
 <img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
 
@@ -120,9 +120,9 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **Expected:** How many rows are in your dataset now? (Expected: -2 -> 500 rows left) 
 
-```
+
 **Note:** In the so-called recipe, we will be adding several operations that we wish to do. We will apply them all at the end.
-```
+
 
 -----------------------------------
 #### **Step 3.2: Handling Outliers:**
@@ -131,15 +131,16 @@ Now on the popup, select the "1_boston_housing_dataset" and click on **"CREATE R
 
 - **How:** Click on the right part of column "residential_land_zone" and click on **"Analyze"**, this opens a popup which shows potential outliers. 
 
-<img width="175" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/99c15276-7348-4f30-b51c-cf6bdda724ff">
+<img width="153" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9640dd23-f3f7-427d-a10d-e7224939af49">
+
 
 Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 
-<img width="472" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f1b187bd-81f0-4673-a02b-1770ccdb4e85">
+<img width="277" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9f7574e1-62cc-4b87-8017-b01f6bcfb05b">
 
 - **Expected:** How many rows are in your dataset (Expected: -30 -> 470 rows left)
   
-<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/11ff4ed6-73fe-42a8-862b-f858d6a00c3a">
+<img width="221" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bd75e2c1-7ae5-4de6-96bc-f3deb189c7ee">
 
 
 -----------------------------------
@@ -147,14 +148,17 @@ Click on **"ACTIONS"** and **"remove rows outside of 5 IQR"**
 -----------------------------------
 - **What:** Rename columns for clarity
 
-- **How:** Click on "median_home_value" and click **"Rename"**, and insert "target_medv". This columns is the target column, which corresponds to the value we would like to predict with our model. It is a good approach to give it the name of the target variable, in order to add some clarity in the dataset. 
+- **How:** Click on right part of the column "median_home_value" and click **"Rename"**, and insert "target_medv". This columns is the target column, which corresponds to the value we would like to predict with our model. It is a good approach to give it the name of the target variable, in order to add some clarity in the dataset.
 
-Once this is done, click on **"RUN"** (bottom left). 
+Once this is done, click on **"RUN"** (bottom left part of the screen). 
 
-<img width="413" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bd9f2ab2-6e5b-439e-ae31-4b0a4c581d8b">
+<img width="178" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/06140760-c182-44e7-9245-ef7facee91a2">
 
 
 This will apply all the operations, one-by-one, on the table. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_3_4_clean.png)) Then go back to the "flow board", by clicking on "Regression: Boston Housing Dataset" -> "GO TO FLOW".  (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/step_flow_board.png))
+
+<img width="395" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3b6de848-b044-4675-a175-ed870d750870">
+
 
 
 -----------------------------------
@@ -164,24 +168,28 @@ This will apply all the operations, one-by-one, on the table. (It should look li
 
 - **How:** There are duplicate rows in the dataset that we need to remove. We are in the flow view. select **"RECIPE"** and select **"visual"** and click on **"distinct"**.
 
-<img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fbd214bc-71d5-428c-bb71-a1f6f975e881">
+<img width="317" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45da5a96-556f-44bf-85a2-ab0705b57962">
 
 
 - In the popup select the **"1_boston_housing_dataset_prepared"**. Accept the output dataset as **"1_regression_cleaned_dataset"**.  Then click on **"RUN"** (bottom left).
-<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f384eb37-503c-4cfd-827a-20e20e741ed2">
 
+<img width="506" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c159b1f9-8944-4403-b19f-15af4281afeb">
 
-- Go back to the **"flow"** screen and click on the last dataset **"1_regression_cleaned_dataset"**
+In the new screen that pops up, click on the green **RUN** button on the bottom left.
+
+- Go back to the **"Flow"** screen (you should know by now how! ;) and **double-click** on the last dataset **"1_regression_cleaned_dataset"**
 - **Expected:** How many rows are in your dataset (Expected: 468)
+
+<img width="279" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c83dde5d-775a-4829-a03d-ca66b46ce8b6">
+
 
 -----------------------------------
 #### **Step 3.5: The final training dataset:**
 -----------------------------------
 Now we will create our final dataset which we will use tomorrow to perform regression.
 
-Now, go back to the flow. Right-click on the last dataset created (1_regression_cleaned_dataset), and click rename and rename it to **"1_boston_housing_training_set"**. 
+Now, go back to the flow. **Right-click** on the last dataset created (1_regression_cleaned_dataset), and click rename and rename it to **"1_boston_housing_training_set"**. 
 
-<img width="751" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ec686caa-5bcb-4525-88a5-54cafc1c2430">
 
 
 We have only scratched the surface, on what you need to do as a data and machine learning scientist when dealing with data. Remember, that the role of the data scientists deals to a large extent with data wrangling! If you can do this part very fast and efficiently, it will save you a lot of time! (so you can spend your time on the beach, on your sailing boat, doing BBQs,...)
