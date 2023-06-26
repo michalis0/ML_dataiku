@@ -16,7 +16,7 @@ We will try to predict the selling price of a house, given its characteristics (
 
 
 - **a.** Please select your project: "Regression: Boston Housing Dataset". (If you did not manage to do the steps yesterday, please import the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv)).
-- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** and click on the **"Lab"** button (top right).
+- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** (the final dataset after the data cleaning) and click on the **"Lab"** button (top right).
 <img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6b1c944f-2ac4-4426-9875-30b90d781f51">
 
 -   click on **"AutoML prediction"**. Select the **"target_medv"** which corresponds to the target variable. Pick **"Quick Prototypes"** and press **"CREATE"**.
