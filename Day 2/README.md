@@ -96,9 +96,10 @@ Once you get back to the "flow" you should see [this](HELP/final%20pipeline.png)
 Now, we will build a classification model. 
 We will try to predict if an online user will click on an advertisement or not, based on various features. Such a predictive model is very important for websites. We should only show those advertisements for which have high-propensity to click on. We will build a predictive model just for one advertisement, but in reality you can imagine that we have models for many advertisements.
 
-First, click on the bird on the top left, to go to the projects screen. 
+First, click on the bird on the top left, to go to the screen with our projects:
 
-<img width="138" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3863399f-a867-474e-acf5-ea8cb3919b26">
+<img width="116" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/aae68b29-3ee6-4c43-a405-e2fafb61e1a4">
+
 
 
 - **a.** Create a new project by clicking on **"NEW PROJECT"** and call it **"Classification: Advertising dataset"**. Select the project.
