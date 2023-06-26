@@ -16,10 +16,17 @@ We will try to predict the selling price of a house, given its characteristics (
 
 
 - **a.** Please select your project: "Regression: Boston Housing Dataset". (If you did not manage to do the steps yesterday, please import the dataset [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_training_set.csv)).
-- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** (the final dataset after the data cleaning) and click on the **"Lab"** button (top right).
-<img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6b1c944f-2ac4-4426-9875-30b90d781f51">
+- **b.** To perform regression, select the dataset **"1_boston_housing_training_set"** (the final dataset after the data cleaning) and click on the blue **"Lab"** button (top right).
+  
+<img width="864" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f73229bb-6a71-468c-b587-b037dc568a48">
 
--   click on **"AutoML prediction"**. Select the **"target_medv"** which corresponds to the target variable. Pick **"Quick Prototypes"** and press **"CREATE"**.
+
+- Next, click on green icon of **"AutoML prediction"**.
+
+<img width="310" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1a765f76-d34f-472e-8766-f0c9d30b4fea">
+
+
+- Select the **"target_medv"** which corresponds to the target variable or what we want the model to predict (the price of the house). Pick **"Quick Prototypes"** and press **"CREATE"**.
 - **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
     -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
