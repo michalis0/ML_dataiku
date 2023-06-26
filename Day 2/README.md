@@ -88,7 +88,9 @@ Once you get back to the "flow" you should see [this](HELP/final%20pipeline.png)
 -----------------------------------
 ### **Step 2: Classification:**
 -----------------------------------
-<img width="267" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/59bee5ce-9b2c-4591-b406-2a86a4c22fd6">
+<img width="192" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/73c5eb31-d31d-40d5-956e-59018e97d692">
+
+
 
 
 Now, we will build a classification model. 
