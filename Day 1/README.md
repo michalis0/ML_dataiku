@@ -28,7 +28,8 @@ Please follow this link: https://www.dataiku.com/company/academic-program/. Go t
 
 <img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/64d0e84d-877d-4bed-84bf-35addd09c6e1">
 
-Until the account is created you can watch this nice that [showcases various features of Dataiku.](https://youtu.be/-amc9iVauuE).
+<br><br>
+**Until your instance is created, you can watch this nice video that [showcases various features of Dataiku.](https://youtu.be/-amc9iVauuE).**
 <br><br>
 
 
