@@ -34,13 +34,27 @@ We will try to predict the selling price of a house, given its characteristics (
 
 <img width="198" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/65a8a2ba-ff45-4651-ac38-7498ad2bae6c">
 
-- In the new view, navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
-    -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
+- In the new view, navigate to **"Algorithms"** from the options on the left.
+
+<img width="166" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/0bdfd414-4a7c-4347-8be9-6e7f40fe35e7">
+
+- Leave on "ON" just the **Ridge Regression**. On the left part of the **DESIGN** section, you can also see different options: 
+    -  **BASIC -> Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
     - **BASIC - Metric:** In our case, we are interested in the R2 Score
     - **Modeling - Algorithms:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
-Now please click **"TRAIN"**. (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). What is the accuracy ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
+We won't change any other option. Click on the blue **"TRAIN"** (top right). 
+
+<img width="581" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5a119545-3ea2-4fd5-9404-99a1c5425a67">
+
+In the new popup click "TRAIN" again (It should look like [this]
+(https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). 
+
+
+
+
+What is the R2 score ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
 
 <img width="431" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5c9e6412-a0e5-4c02-8a09-cc997b4f45ed">
 
