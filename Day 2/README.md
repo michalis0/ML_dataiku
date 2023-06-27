@@ -180,14 +180,31 @@ First, click on the bird on the top left, to go to the screen with our projects:
 
 Using this dataset, we will predict if a user will click or not on the ad. 
 
-- **d.** Go back to the **"Flow"** and click on the **"lab"** tab and click on **"AutoML prediction"**. Select the **"Clicked ad"** which corresponds to the target variable. Select **"Quick Prototypes"** and press **"CREATE"**.
-- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"** and go to **"Algorithms"** and select the **"Logistic Regression"** only.
+- **d.** Go back to the **"Flow"** and click on the blue **"Lab"** button on the right and click on **"AutoML prediction"**. Select the **"Clicked ad"** feature from the drop-down menu, which corresponds to the target variable (what we want to predict). Select **"Quick Prototypes"** and press **"CREATE"** (bottom right).
+- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Click on **"DESIGN"**.
 
-<img width="450" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/39071020-58cd-43a7-810f-e14182284959">
+It understands that this is a 2-class classification problem.
+
+<img width="359" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bdef4ced-f309-4bea-8e97-6d3950c132be">
+
+
+Go to **"Algorithms"** (on the left and select the **"Logistic Regression"** only.
+
+<img width="369" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/489e691c-4ff8-47c6-9dd0-ef4e74b747bb">
 
 
 
-Then click "TRAIN". What is the accuracy ? (expected: [0.990](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_models_day_2.png))
+
+Then click blue "TRAIN" button (top right) and again TRAIN in the new screen. What is the score ? (expected: [0.990]
+(https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_models_day_2.png))
+
+Review again the top coefficients:
+
+<img width="519" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1feca2d7-b5b1-4f55-b649-c4b1db52c59f">
+
+
+
+
 - **d** Now have try different algorithms:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.992)
     - Use the train ratio **0.8** and the Algorithm: **Gradient tree boosting**: What is the accuracy ? (expected: 0.992)
