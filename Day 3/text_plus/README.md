@@ -5,7 +5,7 @@
 ### **Step 1: Initialization:**
 -----------------------------------
 
-- Please download the "Text Preparation plugin". This can be done by searching in the plugins tab and clicking on "ADD A PLUGING" and adding the plugin like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/text_plus/HELP/text_img_1.png). 
+- Please download the "Text Preparation" plugin. This can be done by searching in the plugins tab and clicking on "ADD A PLUGING" and adding the plugin like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/text_plus/HELP/text_img_1.png). 
 - Create a new project and name it "Text - Playground" and select the project. 
 - Please download the three datasets that we will use under this [link](https://github.com/michalis0/ML_dataiku/tree/main/Day%203/text_plus/Datasets) and import them in the project. 
 - Your flow shoud look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/text_plus/HELP/text_img_2.png) 
