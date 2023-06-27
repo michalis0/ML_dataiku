@@ -251,6 +251,9 @@ Congratulations!! You have built and deployed your first classification model! T
 
 <img width="1197" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fcf2ccb2-6819-4ef7-8b08-9aa865991b7f">
 
-Do a classification to predict the column "survived" (0/1). What is the accuracy? Visualize the decision tree built.
- 
+<img width="528" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/29e8c2bd-9aef-48a6-a451-29c8bd0aa8b6">
+
+Do a classification to predict the column "survived" (0/1). What is the default rate? (Hint: you can find it under Design -> Target). What is the accuracy? Visualize the decision tree built.
+
+
 <img width="1247" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/77c5f25a-8e94-4634-a602-6761d7340637">
