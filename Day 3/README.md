@@ -47,7 +47,7 @@ See also here for more information on the various text and [column preprocessing
 -------
 #### EXERCISE/HOMEWORK
 -------
-- Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to [dataiku](https://www.dataiku.com) and then install the plugin.
+1. Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to [dataiku](https://www.dataiku.com) and then install the plugin.
 
 <img width="1040" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/0f644593-5c7c-4c24-b3bd-8b71a1b9b77b">
 
@@ -55,6 +55,15 @@ See also here for more information on the various text and [column preprocessing
 Then, you should be able to access it in a Flow under "Recipe" -> "Natural Language Processing"-> "Sentiment Analysis".
 
 <img width="340" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fea90acf-704d-4cdc-892b-8dcc6d7a8885">
+
+
+2. There are many other text plugins that you can install. Eg with the **"Text Visualization" you can do word clouds. You can apply it on the text dataset that we used above to get the following word cloud.
+
+<img width="624" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d80165a0-f145-4be0-b566-ca3f9af7b8a3">
+
+
+<img width="1345" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9a1f11de-3923-4e1b-bbc7-2e9e682f80c2">
+
 
 
 
