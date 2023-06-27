@@ -54,7 +54,7 @@ Your final flow should look like [this](https://github.com/michalis0/ML_dataiku/
 
 
 
-
+----------
 If you are having trouble running the job : Before clicking on RUN you can go to the "Advanced" tab and change the container configuration to "None - Use backend to execute", like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/text_plus/HELP/text_img_4.png). Then go back to the "Settings tab". 
 
 
