@@ -245,4 +245,12 @@ Congratulations!! You have built and deployed your first classification model! T
 
 ## EXERCISE
 
-Do a classification on data from your own research. Report back the results. What is the accuracy, AUC, and other metrics? Do you get good classification accuracy? What is the baserate for your problem? Are you doing better than the baserate? Much better?
+1. Do a classification on data from your own research. Report back the results. What is the accuracy, AUC, and other metrics? Do you get good classification accuracy? What is the baserate for your problem? Are you doing better than the baserate? Much better?
+
+2. Download the Titanic dataset from [here](/Datasets/Classification/titanic_dataset.csv). 
+
+<img width="1197" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/fcf2ccb2-6819-4ef7-8b08-9aa865991b7f">
+
+Do a classification to predict the column "survived" (0/1). What is the accuracy? Visualize the decision tree built.
+ 
+<img width="1247" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/77c5f25a-8e94-4634-a602-6761d7340637">
