@@ -243,4 +243,6 @@ Congratulations!! You have built and deployed your first classification model! T
 
 <hr>
 
-**Exercise:** Do a classification on data from your own research. Report back the results. What is the accuracy, AUC, and other metrics? Do you get good classification accuracy? What is the baserate for your problem? Are you doing better than the baserate? Much better?
+## EXERCISE
+
+Do a classification on data from your own research. Report back the results. What is the accuracy, AUC, and other metrics? Do you get good classification accuracy? What is the baserate for your problem? Are you doing better than the baserate? Much better?
