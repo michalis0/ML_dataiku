@@ -88,8 +88,10 @@ You will move to another screen. Click on white **"DEPLOY"** button (top right).
 
 <img width="957" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6924160e-7f98-4202-a0d6-1922a7b7f100">
 
+ Your flow will look like with the new predictive model in it.
 
-It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow will look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png).
+ <img width="386" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/b499a06f-697c-4636-9b69-e485530b0b9b">
+
 
 Now, we have this predictive model in our flow, and we can apply other data to it.
 
