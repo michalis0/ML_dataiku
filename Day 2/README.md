@@ -26,8 +26,15 @@ We will try to predict the selling price of a house, given its characteristics (
 <img width="310" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1a765f76-d34f-472e-8766-f0c9d30b4fea">
 
 
-- Select the **"target_medv"** which corresponds to the target variable or what we want the model to predict (the price of the house). Pick **"Quick Prototypes"** and press **"CREATE"**.
-- **c.** This is the space where we will be training the Machine Learning model ! **Before clicking on "TRAIN"**, we will have a look at how the model is initialized. Please click on **"DESIGN"** and navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
+- Select the **"target_medv"** (= **median_home_value**) which corresponds to the target variable or what we want the model to predict (the price of the house).
+<img width="362" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/46b270dd-a98c-42db-93cf-c1f29aab69a3">
+
+- Select **"Quick Prototypes"** (top left) and press the blue **"CREATE"** (bottom right) .
+- **c.** This is the space where we will be training the Machine Learning model ! **DON'T clicking on "TRAIN" yet**, because would like to choose some options for how to do regression. Click on **"DESIGN"** tab (top middle)
+
+<img width="198" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/65a8a2ba-ff45-4651-ac38-7498ad2bae6c">
+
+- In the new view, navigate to **"Algorithms"**. Please select the first model that we will use: **Ridge Regression**. In the **DESIGN** section, you can see differnent tabs: 
     -  **BASIC - Target:** We model the problem as a Regression and our target variable is "target_revenue"
     - **BASIC - Train / Test Set:** This allows us to control how the dataset is split into a training and testing set, we can modify that ratio
     - **BASIC - Metric:** In our case, we are interested in the R2 Score
