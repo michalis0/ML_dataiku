@@ -84,6 +84,8 @@ In this section, we are going to study neural networks ! Neural Networks (NNs) a
 
 **IMPORTANT COMMENT**: Copy paste the code below. You may have to adapt mildly. (1) adjust the names of the datasets if you changed them , 2) Replace the word API_KEY with a string that I will provide you, I will paste it in our Teams chat.)
 
+Note, this part, can be tricky. I also got errors the first time that I did it, because I didn't do it correctly...so it may not work the first time!
+
 ```
 # -*- coding: utf-8 -*-
 import dataiku
