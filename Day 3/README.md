@@ -28,7 +28,7 @@ Today we are going to take a look at text Analytics. We are going to perform sen
 <img width="1000" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/61dcb640-ff6e-449a-ba1c-e1ec094dbb6c">
 
 
-- Now we can train our models; select different models, for example: Logistic Regressio and XGBoost. What is the best accuracy that you get ? (expected: [0.922](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/NLP_results.png))). Now, double-click on the best model on the left and then in the new screen select "DEPLOY". 
+- Now we can train our models; select different models, for example: Logistic Regression and XGBoost. What is the best accuracy that you get ? (expected: [0.922](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/NLP_results.png))). Now, double-click on the best model on the left and then in the new screen select "DEPLOY". 
 
 - Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the "Predict sentiment (multiclass)" model and create the recipe. 
