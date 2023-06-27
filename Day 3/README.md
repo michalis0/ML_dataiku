@@ -34,7 +34,7 @@ Today we are going to take a look at text Analytics. We are going to perform sen
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline_nlp.png) pipeline, please click on testing_set_scored to see the predicted values.
  
 -------
-#### HOMEWORK
+#### EXERCISE/HOMEWORK
 -------
 - Try the [sentiment analysis plugin](https://knowledge.dataiku.com/latest/ml-analytics/nlp/tutorial-sentiment-analysis-plugin.html) which is already provided by dataiku. For this you need first to sign in to [dataiku](https://www.dataiku.com) and then install the plugin.
 
@@ -54,7 +54,7 @@ Then, you should be able to access it in a Flow under "Recipe" -> "Natural Langu
 <img width="363" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/487fb7ac-218f-4ed8-a292-719ff13e1ca4">
 
 
-In this section, we are going to study neural networks ! Neural Networks (NNs) and Deep Learning represent some the most exciting areas in the field of AI. More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use IMDB movie dataset and predict if movie reviews are positive or negative.
+In this section, we are going to study neural networks ! Neural Networks (NNs) and Deep Learning represent some the most exciting areas in the field of AI. More precisely, we will perform an sentiment analysis using a Neural Network. To do so, we will use the IMDB movie review dataset and predict if movie reviews are positive or negative.
 
 - **a.** To do so please start by downloading the dataset that we will use. It can be found under [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/imdb_dataset_Neural_Network.csv) link. Create a new project on DataIKU called **"Neural Network: IMDB Dataset"** and import the dataset.
 
@@ -62,7 +62,7 @@ In this section, we are going to study neural networks ! Neural Networks (NNs) a
 
 - **c.** In order for the model to connect please copy and paste this code and adapt the code to the one you have in the codebox. 
 
-**COMMENT**: Copy paste the code below. You may have to adapt mildly. (1) adjust the names of the datasets if you changed them , 2) Replace API_KEY with your API key from Huggingface)
+**IMPORTANT COMMENT**: Copy paste the code below. You may have to adapt mildly. (1) adjust the names of the datasets if you changed them , 2) Replace the word API_KEY with a string that I will provide you, I will paste it in our Teams chat.)
 
 ```
 # -*- coding: utf-8 -*-
