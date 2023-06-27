@@ -34,6 +34,15 @@ Today we are going to take a look at text Analytics. We are going to perform sen
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%203/1_financial_news_testing_set.csv). Now, as we have done before, please import the dataset as "testing_set". Once it is imported please click on "Predict" in the tab on the right side and select the "Predict sentiment (multiclass)" model and create the recipe. 
     - Then click on Run. 
     - Once you get back to the "flow" you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%201/Help/final_pipeline_nlp.png) pipeline, please click on testing_set_scored to see the predicted values.
+
+
+<BR><BR>
+#### More info
+
+See also here for more information on the various text and [column preprocessings](https://knowledge.dataiku.com/latest/ml-analytics/model-design/concept-feature-handling.html):
+
+<img width="726" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/247d7b45-1b24-4c76-a04a-3dfbb50e81d9">
+
  
 -------
 #### EXERCISE/HOMEWORK
