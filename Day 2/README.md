@@ -99,10 +99,13 @@ Now, we have this predictive model in our flow, and we can apply other data to i
 <img width="154" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/85be2149-005d-4986-b274-3f9eec432357">
 
     
-Import the dataset as **"testing_set"** (you should know how to do that by now! ;). 
+Import the dataset as **"testing_set"** (you should know how to do that by now! ;). If you forgot, go to "Flow".
 
-<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45128c91-c454-4189-b262-19baa8b1ee8c">
+<img width="158" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/024116ab-88a0-4d93-ace2-c853e15bd804">
 
+then Dataset -> Upload your files.
+
+<img width="212" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8404d89c-4acf-4426-944d-c172ef5f2ce6">
   
     
 Once imported, click/select the newly imported data and on the right tab scroll down to find the green **"Predict**".
