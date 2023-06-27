@@ -44,47 +44,62 @@ We will try to predict the selling price of a house, given its characteristics (
     - **BASIC - Metric:** In our case, we are interested in the R2 Score
     - **Modeling - Algorithms:** Here we can define the different algorithms we want to define for our Regression, we can also define the hyperparameters for our models
 
-We won't change any other option. Click on the blue **"TRAIN"** (top right). 
+We won't change any other option (It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). Click on the blue **"TRAIN"** (top right). 
 
 <img width="581" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5a119545-3ea2-4fd5-9404-99a1c5425a67">
 
-In the new popup click "TRAIN" again (It should look like [this]
-(https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/models.png)). 
+In the new popup click "TRAIN" again. The model is training. 
 
 
 
 
 What is the R2 score ? (expected: [0.753](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model.png))
 
-<img width="431" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5c9e6412-a0e5-4c02-8a09-cc997b4f45ed">
+<img width="944" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/4935a2a3-d77f-458d-8220-bf4877734f72">
+
+**Time to pause and THINK!** Which are the parameters that positively or negatively influence the regression? Look at the above figure. 
 
 
-- **d.** Lets train the model using different parameters! Using the same model change the **train ratio to 0.6** (this can be done by clicking **DESIGN** and **BASIC - Train/Test set** and change the "Train/Test Set" parameters to 0.6 for the "train ratio"), what is the accuracy ? (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model_2.png))
+
+- **d.** Let's train the model using different parameters! Using the same model change the **train ratio to 0.6** (this can be done by clicking **DESIGN** and **BASIC - Train/Test set** and change the "Train/Test Set" parameters to 0.6 for the "train ratio"), what is the accuracy ? (expected: [0.696](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/accuracy_model_2.png))
 
 
 
-- **e.** Now try **other algorithms**:
+- **e.** Now try **other algorithms**. Go again to DESIGN, and from the Algorithms in the left, pick several of them:
     - Use the train ratio **0.8** and the Algorithm: **Random Forest**: What is the accuracy ? (expected: 0.871)
     - Use the train ratio **0.8** and the Algorithm: **Gradient tree boosting**: What is the accuracy ? (expected: 0.901)
     - Use the train ratio **0.8** and the Algorithm: **Ridge Regression**: What is the accuracy ? (expected: 0.753)
     - Use the train ratio **0.8** and the Algorithm: **Lasso Regression**: What is the accuracy ? (expected: 0.700 )
-    - Use the train ratio 0.8 and the Algorithm: **KNN**: What is the accuracy ? (expected: 0.683)
+    - Use the train ratio **0.8** and the Algorithm: **KNN**: What is the accuracy ? (expected: 0.683)
     It should look [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/model_selection_.png)
     - What is the best model ? (expected: Gradient Boosted Tree - 0.901 )
     - Your dashboard should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/regression_testing_models.png)
 
+<img width="938" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c0b4cb79-e412-4bb9-8550-c779c2bc451d">
 
-  <img width="344" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/40f79e95-16f2-4a43-b871-b22765df5b02">
 
 
-**Double-click** on the best model (i.e: Gradient Tree Boosting). You will move to another screen. Click on **"DEPLOY"** (top right). It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow will look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png).
+**Double-click** (important!) on the best model (i.e: Gradient Tree Boosting). 
+
+<img width="267" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ee0805a8-f2f7-4606-ad48-383cfb66be01">
+
+
+You will move to another screen. Click on white **"DEPLOY"** button (top right). 
+
+<img width="957" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/6924160e-7f98-4202-a0d6-1922a7b7f100">
+
+
+It should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/best_models_deploy.png). Your flow will look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/new_flow_deployed.png).
 
 Now, we have this predictive model in our flow, and we can apply other data to it.
 
 - **f.** Test the model with new data ! 
-    - When machine learning models are trained, you can input new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv), by clicking the "Download Raw File". <img width="189" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d22cc855-9e1b-4ac1-a65c-360b9cf3c998">
+    - When machine learning models are trained, you should provide new "unseen" data (also known as "out-of-sample" data) to see how the model would behave in the real-world. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Regression/1_boston_housing_testing_set.csv), by clicking the "Raw" button and then saving with Ctrl-S (provide a name such as "regression_test.csv").
+
+<img width="154" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/85be2149-005d-4986-b274-3f9eec432357">
+
     
- Import the dataset as **"testing_set"** (as we did previously). 
+Import the dataset as **"testing_set"** (you should know how to do that by now! ;). 
 
 <img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/45128c91-c454-4189-b262-19baa8b1ee8c">
 
