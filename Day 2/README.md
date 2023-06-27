@@ -139,7 +139,8 @@ Scroll to the right part of the table and compare the column "prediction" with t
 
 <img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/84349b9f-f993-485b-85bd-c0326f9f4b54">
 
-**REMEMBER**: We should ALWAYS see the accuracy of our model on data it has not seen before, otherwise we are cheatin
+<br>
+**REMEMBER**: We should ALWAYS see the accuracy of our model on data it has not seen before, otherwise we are cheating!
 
 #### More information:
 - See also the [model scoring tutorials at Dataiku](https://knowledge.dataiku.com/latest/ml-analytics/model-scoring/tutorial-scoring-data.html)
