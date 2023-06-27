@@ -106,11 +106,21 @@ Import the dataset as **"testing_set"** (you should know how to do that by now! 
 then Dataset -> Upload your files.
 
 <img width="212" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8404d89c-4acf-4426-944d-c172ef5f2ce6">
+
+<img width="481" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/558b660e-1b08-48e9-89ce-7804c9e2d4d6">
+
   
     
-Once imported, click/select the newly imported data and on the right tab scroll down to find the green **"Predict**".
+Once imported, go back to the "Flow" (again!) and click/select the newly imported data. 
 
-<img width="267" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/8f2fd26e-971e-40eb-8026-ab67b1ff18a0">
+<img width="610" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/5a3511b0-2a2b-477d-8d9d-4d6095268914">
+
+
+Only AFTER you click on the new dataset, on the right tab scroll down to find the green **"Predict**".
+
+<img width="644" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bd21a517-c712-48ed-8fc2-a23d2504894a">
+
+
 
 Select the Prediction model **target_medv (regression)** model and click on "CREATE RECIPE". 
 In the next screen, click on the green [RUN](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png).  (bottom left).
