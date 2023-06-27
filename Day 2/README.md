@@ -225,6 +225,18 @@ Now click on the Random Forest model (from the list on the left), you move to a 
 - **f.** Test the model with new data ! 
     - When machine learning models are trained, you can input new "unseen" data to see how the model would predict a certain value. To do so, you can download the test dataset that we have prepared for you under this [link](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/Datasets/Classification/1_advertising_testing_set.csv) (remember to download as "raw" file, and then save with CTRL-S). Now, as done before, import the dataset naming it "testing_set".
 
-Once imported, click/select the newly imported test dataset, and then scroll down on the right tab to find the green "Predict". Select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on run. 
+Once imported, go back to the "Flow" (again!), click/select the newly imported test dataset, and then scroll down on the right tab to find the green "Predict". Select the "Predict Clicked on Ad (binary)" as the Prediction model and create the recipe. Then click on the green "RUN" (bottom left). 
 
-Once you get back to the **"flow"** you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/final_pipeline_day_2.png) pipeline, click on testing_set_scored to see the predicted values. 
+After the job is finished, go back to the **"Flow"** you should see this pipeline. 
+
+<img width="545" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3d8c4321-a0d2-46aa-a4d5-29e4746f44fe">
+
+
+**Double-click** on scored dataset to see the predicted values. **How many predictions were correct??**
+
+<img width="846" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/f9508c49-4eca-4a0d-988c-7ad9bf090c7a">
+
+
+<br>
+
+Congratulations!! You have built and deployed your first classification model! Try it on your own dataset. You saw how easy it is!
