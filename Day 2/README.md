@@ -123,14 +123,23 @@ Only AFTER you click on the new dataset, on the right tab scroll down to find th
 <img width="644" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/bd21a517-c712-48ed-8fc2-a23d2504894a">
 
 
+<br>
 
-Select the Prediction model **target_medv (regression)** model and click on "CREATE RECIPE". 
-In the next screen, click on the green [RUN](https://github.com/michalis0/ML_dataiku/blob/main/Day%202/HELP/define_prediction.png).  (bottom left).
+Select the Prediction model **target_medv (regression)** model 
 
-Compare the column "prediction" with the values of the test set: **medv** 22.4, 20.6, 23.9, 22.0, 11.9
+<img width="249" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/4648a214-25c8-4441-b381-b7f81db0586e">
 
-Once you get back to the "flow" you should see [this](HELP/final%20pipeline.png) pipeline, click on testing_set_scored to see the predicted values. 
+Click on "CREATE RECIPE" (bottom right). In the next screen, click on the green [RUN] button (bottom left).
 
+Go back to the "FLOW" (again!). **Double-click** on the "testing_set_scored" to see the actual values and the predictions.
+
+<img width="660" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c688965c-062a-4094-b16f-9c9c55a22343">
+
+Scroll to the right part of the table and compare the column "prediction" with the values of the test set: **median_values_home** 22.4, 20.6, 23.9, 22.0, 11.9
+
+<img width="232" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/84349b9f-f993-485b-85bd-c0326f9f4b54">
+
+**REMEMBER**: We should ALWAYS see the accuracy of our model on data it has not seen before, otherwise we are cheatin
 
 ## More information:
 - See also the [model scoring tutorials at Dataiku](https://knowledge.dataiku.com/latest/ml-analytics/model-scoring/tutorial-scoring-data.html)
