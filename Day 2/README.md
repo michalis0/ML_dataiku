@@ -257,3 +257,9 @@ Do a classification to predict the column "survived" (0/1). What is the default 
 
 
 <img width="1247" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/77c5f25a-8e94-4634-a602-6761d7340637">
+
+
+**Thinking point**: Check also under Feature Handling how each numerical column is handled by default. Is it rescaled? Is it suppressed? Why?
+
+<img width="528" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/e749a631-f22b-4f99-9820-f68cb3965b0c">
+
