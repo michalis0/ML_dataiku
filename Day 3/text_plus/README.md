@@ -17,7 +17,7 @@
 
 In this step, we are going to use a library able to detect language from text ! 
 
-- **a** Please select on the "language_detection_dataset" dataset and click on "Text Preparation" on the tab with the new plugings downloaded. Please select "Language Detection" and add "language_detected" as the output dataset and click "CREATE DATASET". 
+- **a** Please select on the "language_detection_dataset" dataset and click on "Text Preparation" on the tab with the new plugin downloaded.<img width="80" alt="text_preparation" src="https://github.com/michalis0/ML_dataiku/assets/43532600/39f96e72-0b52-4363-b7f0-cdc131c6414e"> Please select "Language Detection" and add "language_detected" as the output dataset and click "CREATE DATASET". 
 
 - **b** Now please select the column text and do not add anything anything in the Language scope ! This will allow the model to search all the possible languages that it has access to. It should look like [this]()
 
