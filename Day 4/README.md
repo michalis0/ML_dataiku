@@ -38,32 +38,36 @@ and have a look at the different information given by the clusters given under *
 What we did above created a model using unlabelled data by considering the similarities of the objects. Essentially it computed the cluster centers. But we cannot see the cluster assignment. For this we apply the model on the same data.
 
 - In the Flow, click on the **"4_clustering_dataset_cleaned"**, then scroll down on the tab on the right and select the green **"Cluster"** button.
-- 
-<img width="388" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3d7e1bf3-e821-4dbc-80dc-4be5dd6b367b">
+  
+
+<img width="952" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2ca5f9ca-3269-4d1b-aee7-7a4ac260a462">
+
 
 
 -    In the popup window, select the model that just have just created and click on **CREATE**, you can directly click on **RUN**. Your flow should now look like
 
-<img width="639" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/48a2c65e-a634-4732-81ed-93ff586a3079">
+<img width="644" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/4dd580a1-fdab-48d9-87f7-285555251909">
 
 
 - We will now have a closer look at the clusters that have been created. **Double-click** on the newly created scored dataset (4_clustering_dataset_cleaned_scored, possibly!) and select **Charts**.
 
-<img width="642" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/155f7911-f889-44f1-bb89-36e90440c3c8">
+<img width="566" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ddcf3d22-1b08-4ced-873a-0bda8b864b30">
 
 
 - Select **Boxplot** : Show Y-axis "Spending score" by X-axis "cluster_label". It should look like this:
 
-<img width="846" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/b3e814b7-4da7-4294-9948-60edd44e62a3">
+<img width="1027" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ba40d91f-1615-4a4a-ae02-54591962cfd5">
 
 
 Other things you can explore under clustering, is to try the different algorithms:
 
-<img width="400" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/69e6c21e-5b43-435c-8187-64b891476bbb">
+<img width="473" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/70f37e46-0f12-4ff5-b6e7-6f95b33b8169">
+
 
 and also to try dimensionality reduction, eg PCA. This usually helps the clustering, especially if the data are high-dimensional.
 
-<img width="500" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c73e9afb-72e1-4e34-a3db-31a8dc51647d">
+<img width="772" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/4ce620ac-49a0-464d-8d8d-b59492dec32d">
+
 
 
 ----
