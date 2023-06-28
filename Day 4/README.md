@@ -76,7 +76,7 @@ Graphs are a prevalent way of modeling connections between entities.
 
 (To install the plugin, sign-in to dataiku.com; click Plugins and search for Graph analytics. Install the plugin)
 
-- Download the dataset from here. You can delete most of the columns, leave only the columns "Actor" and "Film".
+- Download the dataset from [here](./actorfilms.csv). You can delete most of the columns, leave only the columns "Actor" and "Film".
 - Follow this [tutorial](https://www.dataiku.com/product/plugins/graph-analytics/)
 
 You can visualize the graph of actors and movies. It should look like this:
