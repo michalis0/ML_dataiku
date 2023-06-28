@@ -21,11 +21,16 @@ Let's do clustering with Dataiku!
 
 - Create a new project: "Clustering: Customer Dataset".
 - To perform clustering, import the dataset **"4_clustering_dataset_cleaned"**, from [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/4_clustering_dataset_cleaned.csv). 
-- Click on the **"LAB"** button and then on **"AutoML Clustering"**. Pick the **K-Means** which corresponds to the clustering algorithm that we will use. Press **"CREATE"**.
-- Click on **"TRAIN"**, this will train k-means algorithm to find clusters in the dataset. You should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_1.png). Now double-click on the model
-<img width="284" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/407d271c-64dd-4013-8768-358261970f14">
+- Click on the **"LAB"** button and then on **"AutoML Clustering"**. Go to "DESIGN" <img width="107" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ed98b3e9-7075-4cc3-822a-b97f451d594f"> and under the "Algorithms" tab on the left
+pick the **K-Means** which corresponds to the clustering algorithm that we will use. Press **"CREATE"**.
+- Click on **"TRAIN"**, this will train k-means algorithm to find clusters in the dataset. You should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_1.png). Now double-click on the model name on the left
+  
+<img width="341" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/03b5edcc-defe-4ba7-b774-bbdc4879258a">
 
-and have a look at the different informations given by the clusters given under **"CLUSTERS"**. You can have a look at the Heatmap, the Cluster profiles and the scatter plot, it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_2.png).
+
+and have a look at the different information given by the clusters given under **"CLUSTERS"**. You can have a look at the Heatmap, the Cluster profiles and the scatter plot, it should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_2.png).
+
+<img width="670" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3f684fd3-71e5-49ed-8c5e-96c28f72c065">
 
 
 - Click on **DEPLOY** and select **DEPLOY A RETRAINABLE MODEL TO THE FLOW"**. It should now look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_3.png).
