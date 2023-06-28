@@ -1,5 +1,5 @@
 
-# **Day 3: Exercises **
+# Day 3: Exercises 
 
 -----------------------------------
 ### **Step 1: Initialization:**
