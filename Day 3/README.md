@@ -67,7 +67,7 @@ Then, you should be able to access it in a Flow under "Recipe" -> "Natural Langu
 
 ###  More exercises (for the PhD students)
 
-- Do [these](./text_plus/README.md) at home to better understand text analytics and data preprocessing for text
+- Do [these](./text_plus/README.md) at home to better understand text analytics and data preprocessing for text (Language Detection, Text Cleaning, etc).
 
 
 -----------------------------------
