@@ -10,11 +10,11 @@
 -----------------------------------
 In clustering we try to create groups of "similar" objects. We use clustering when we don't have labelled data. Question: is the following clustering a proper one? 
 
-<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2cc1c2b4-30c1-48b7-ba86-730034646309">
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ca4b163e-5d2f-485b-be29-4eae7c7891e8">
 
-<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/a932a1b0-c3b2-4eeb-8a84-d4ed9996015b">
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/3e0be064-1749-42ea-a19f-22839964b33e">
 
-<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/91b1aa88-2991-4c82-8f50-b3b2f661c8c0">
+<img height="200" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/21251564-c0cc-4fe1-be6a-9ef111172fe1">
 
 
 Let's do clustering with Dataiku!
