@@ -1,6 +1,10 @@
 
 # Day 4: Clustering and Graph Analytics
 
+We will need to Lab2 the "graph analytics" plugin, you can already add it now, because it may take some time to appear in your project menu. 
+
+To install the plugin, sign-in to dataiku.com; click Plugins (on the left) and search for Graph analytics. Install the plugin. That's it for now!
+
 ## Table of contents 
 * [Clustering](#clustering)
 * [Graph Analytics](#graph-analytics)
