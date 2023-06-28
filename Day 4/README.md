@@ -63,6 +63,14 @@ Other things you can explore under clustering, is to try the different algorithm
 
 <img width="473" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/70f37e46-0f12-4ff5-b6e7-6f95b33b8169">
 
+**Question:** Which is better, the kMeans or the agglomerative clustering?
+
+<img width="319" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/51d643db-a9cb-44ff-9f12-bf7c47c165dd">
+
+<img width="366" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/c0c55cf1-1caa-4847-be67-48a542056133">
+
+
+
 
 and also to try dimensionality reduction, eg PCA. This usually helps the clustering, especially if the data are high-dimensional.
 
