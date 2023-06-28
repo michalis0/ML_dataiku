@@ -20,7 +20,7 @@ In clustering we try to create groups of "similar" objects. We use clustering wh
 Let's do clustering with Dataiku!
 
 - Create a new project: "Clustering: Customer Dataset".
-- To perform clustering, import the dataset dataset **"4_clustering_dataset_cleaned"**, which can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/4_clustering_dataset_cleaned.csv). 
+- To perform clustering, import the dataset **"4_clustering_dataset_cleaned"**, from [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/4_clustering_dataset_cleaned.csv). 
 - Click on the **"LAB"** button and then on **"AutoML Clustering"**. Pick the **K-Means** which corresponds to the clustering algorithm that we will use. Press **"CREATE"**.
 - Click on **"TRAIN"**, this will train k-means algorithm to find clusters in the dataset. You should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%204/HELP/picture_1.png). Now double-click on the model
 <img width="284" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/407d271c-64dd-4013-8768-358261970f14">
