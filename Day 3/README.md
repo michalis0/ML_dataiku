@@ -65,6 +65,9 @@ Then, you should be able to access it in a Flow under "Recipe" -> "Natural Langu
 <img width="1345" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9a1f11de-3923-4e1b-bbc7-2e9e682f80c2">
 
 
+###  More exercises (for the PhD students)
+
+- Do [these](./text_plus/README.md) at home to better understand text analytics and data preprocessing for text
 
 
 -----------------------------------
