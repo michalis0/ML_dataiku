@@ -85,7 +85,7 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 ----
 #### HOMEWORK (for the motivated ones!)
 -----
-- Follow the clustering tutorial for [clustering for bikesharing](https://knowledge.dataiku.com/latest/use-cases/clustering/bike-sharing/tutorial-index.html).
+- Follow the clustering tutorial for [clustering for bikesharing](https://knowledge.dataiku.com/latest/use-cases/clustering/bike-sharing/tutorial-index.html). With this exercise, you will also see how to plot geospatial information on a dashboard.
 
 <img width="600" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2c6fc19c-3e54-4eb1-a481-e09a5e6ec403">
 
