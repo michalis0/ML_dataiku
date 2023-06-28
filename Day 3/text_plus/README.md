@@ -1,5 +1,5 @@
 
-# **Day 3: Text Analytics and Neural Networks**
+# **Day 3: Exercises **
 
 -----------------------------------
 ### **Step 1: Initialization:**
