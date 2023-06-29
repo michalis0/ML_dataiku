@@ -25,7 +25,12 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 **d.** Go back to your main screen and create a new project called **"Chatbots: CHATGPT Text summarization"** and import the "text_articles_dataset.csv" dataset. As you have downloaded the plugin, you should now see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_5_5.png) icon on the right hand side of the screen. Select the dataset and click on the icon "OPENAI GPT". Now  select the button **Summarize text with OpenAI GPT**, like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_6_5.png) and create an output dataset called "summarized_dataset". And select the column "Text" and the key that we have created before. Finally click on **RUN** !
 
-**e.**: The text has been summarized ! Your flow should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_8_5.png) and the output dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_9_5.png)
+**e.**: The text has been summarized ! Your flow should look like this
+
+<img width="1143" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d9d20349-1715-4e62-99f7-ad5c31e70780">
+
+
+and the output dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_9_5.png)
 
 
 Congrats! You have used cutting-edge advances of AI and Machine Learning!
