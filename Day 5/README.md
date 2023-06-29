@@ -13,7 +13,7 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 **a.** Begin by downloading the two newspaper articles we will summarize using ChatGPT. The articles can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/text_articles_dataset.csv). Those two articles were taken from the BBC Finance, the first one talks about Interest Rates and the second one about Crypto in the USA. 
 
-**b.** Download the OPEN AI ChatGpt plugin. To install the plugin, navigate to the launchpad of dataIKU (this can be done by clicking on the top left icon), you should see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_1_5.png). Navigate to the  **"Plugins"** tab and click on the **+ ADD A PLUGIN** then type "OpenAI GPT". This should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_2_5.png). Once you have clicked on the **INSTALL** button please go back to the **Plugins** tab and you should be able to see your plugin (like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_3_5.png))
+**b.** Install the OPEN AI ChatGpt plugin for Dataiku. a) Login to Dataiku.com, b) once logged in, navigate to the  **"Plugins"** tab on the left and click on the **+ ADD A PLUGIN** then type "OpenAI GPT". This should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_2_5.png). Once you have clicked on the **INSTALL** button please go back to the **Plugins** tab and you should be able to see your plugin (like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_3_5.png))
 
 **c.** To be able to use the API, we have to add an API key. To do so click on the Plugin name and click on "ADD A PRESET", you should now see this [screen](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_4_5.png). Now add the following text for the name insert "ChatGPT" for the description "Key" and for the key, please copy and paste your API_KEY credentials if you already have an account (if you don't, we will provide one), and click on **CONFIRM**. 
 
@@ -24,5 +24,6 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 Congrats! You have used cutting-edge advances of AI and Machine Learning!
 
-For [more](https://content.dataiku.com/email-llm-demo?utm_campaign=GLO+CONTENT+ChatGPT+%26+LLMs+March+2023&utm_medium=email&_hsmi=260388734&_hsenc=p2ANqtz-9Pr_dfkoaZufRgm3jgYC9oYxUUz66dNBYkpZl810Obz32bu7hY7ihY726mj6TdRF-OgyIYvDkEUtTe9OKn_RcxnrnhTQ&utm_content=260390385&utm_source=hs_email) info.
-
+### More information
+Watch [this video](https://content.dataiku.com/email-llm-demo?utm_campaign=GLO+CONTENT+ChatGPT+%26+LLMs+March+2023&utm_medium=email&_hsmi=260388734&_hsenc=p2ANqtz-9Pr_dfkoaZufRgm3jgYC9oYxUUz66dNBYkpZl810Obz32bu7hY7ihY726mj6TdRF-OgyIYvDkEUtTe9OKn_RcxnrnhTQ&utm_content=260390385&utm_source=hs_email) info.
+to see what more you can do with the chatgpt plugin in dataiku.
