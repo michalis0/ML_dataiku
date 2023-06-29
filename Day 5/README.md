@@ -9,13 +9,19 @@
 ### ChatGPT for Summarizing Text
 -----------------------------------
 
+<img width="646" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/26c94cb6-0add-4b1f-aa5d-bd78d7f05a81">
+
+
 Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize newspapers articles. 
 
 **a.** Begin by downloading the two newspaper articles we will summarize using ChatGPT. The articles can be found [here](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/text_articles_dataset.csv). Those two articles were taken from the BBC Finance, the first one talks about Interest Rates and the second one about Crypto in the USA. 
 
-**b.** Install the OPEN AI ChatGpt plugin for Dataiku. a) Login to Dataiku.com, b) once logged in, navigate to the  **"Plugins"** tab on the left and click on the **+ ADD A PLUGIN** then type "OpenAI GPT". This should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_2_5.png). Once you have clicked on the **INSTALL** button please go back to the **Plugins** tab and you should be able to see your plugin (like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_3_5.png))
+**b.** Install the OPEN AI ChatGpt plugin for Dataiku. a) Login to Dataiku.com, b) once logged in, navigate to the  **"Plugins"** tab on the left and click on the **+ ADD A PLUGIN** then type "OpenAI GPT". This should look something like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_2_5.png). Once you have clicked on the **INSTALL** button go back to the **Plugins** tab and you should be able to see your plugin (like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_3_5.png))
 
-**c.** To be able to use the API, we have to add an API key. To do so click on the Plugin name and click on "ADD A PRESET", you should now see this [screen](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_4_5.png). Now add the following text for the name insert "ChatGPT" for the description "Key" and for the key, please copy and paste your API_KEY credentials if you already have an account (if you don't, we will provide one), and click on **CONFIRM**. 
+**c.** To be able to use the API, we have to add an API key. To do so click on the Plugin name and click on "ADD A PRESET", you should now see this [screen](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_4_5.png). Now add the following text for the name insert "ChatGPT" for the description "Key" and for the key, copy and paste your API_KEY credentials if you already have an account (if you don't, we will provide one), and click on **CONFIRM**. 
+
+<img width="417" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/95987471-64eb-45ec-abd1-0ca25f3c5771">
+
 
 **d.** Go back to your main screen and create a new project called **"Chatbots: CHATGPT Text summarization"** and import the "text_articles_dataset.csv" dataset. As you have downloaded the plugin, you should now see [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_5_5.png) icon on the right hand side of the screen. Select the dataset and click on the icon "OPENAI GPT". Now  select the button **Summarize text with OpenAI GPT**, like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_6_5.png) and create an output dataset called "summarized_dataset". And select the column "Text" and the key that we have created before. Finally click on **RUN** !
 
