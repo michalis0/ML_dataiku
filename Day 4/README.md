@@ -44,7 +44,7 @@ What we did above created a model using unlabelled data by considering the simil
 - In the Flow, click on the **"4_clustering_dataset_cleaned"**, then scroll down on the tab on the right and select the green **"Cluster"** button.
   
 
-<img width="952" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2ca5f9ca-3269-4d1b-aee7-7a4ac260a462">
+<img width="700" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/2ca5f9ca-3269-4d1b-aee7-7a4ac260a462">
 
 
 
@@ -60,7 +60,10 @@ What we did above created a model using unlabelled data by considering the simil
 
 - Select **Boxplot** : Show Y-axis "Spending score" by X-axis "cluster_label". It should look like this:
 
-<img width="1027" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ba40d91f-1615-4a4a-ae02-54591962cfd5">
+<img width="800" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/ba40d91f-1615-4a4a-ae02-54591962cfd5">
+
+
+**Question:** Did we do well to choose 5 clusters? What does the above figure tell you? Perhaps some clusters could be merged? (Hint: Maybe 1&2, and 3&4?)
 
 
 Other things you can explore under clustering, is to try the different algorithms:
