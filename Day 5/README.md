@@ -27,7 +27,7 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 
 **e.**: The text has been summarized ! Your flow should look like this
 
-<img width="1143" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d9d20349-1715-4e62-99f7-ad5c31e70780">
+<img width="300" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d9d20349-1715-4e62-99f7-ad5c31e70780">
 
 
 and the output dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_9_5.png)
