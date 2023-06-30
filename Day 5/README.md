@@ -5,6 +5,8 @@
 
 <img width="349" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/9e938ecb-38c2-4d79-8a5f-c9d8311acd75">
 
+Today is our last day of this course. The description below is _intentionally_ not as descriptive as for the previous days. You have been working 4 days with the dataiku tool. So, by now you should be able to accomplish this task with minimal supervision ;). 
+
 -----------------------------------
 ### ChatGPT for Summarizing Text
 -----------------------------------
