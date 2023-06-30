@@ -35,10 +35,13 @@ Today we will use the OPENAI ChatGPT API ! We will use it in order to summarize 
 and the output dataset should look like [this](https://github.com/michalis0/ML_dataiku/blob/main/Day%205/HELP/PICTURE_9_5.png)
 
 
-Congrats! You have used cutting-edge advances of AI and Machine Learning!
+**CONGRATS! You have used cutting-edge advances of AI and Machine Learning!**
 
 ### More information
+
+For your research the classification recipe should also be relevant. There, you give some examples and let chatGPT classify the remaining text (eg sentiment analysis, topic detection, anything that you really want to detect in your text). Remember, that you only need to give it a few examples, and then everything should be super accurate! So, why not try it on your own data?
+
 Watch [this video](https://content.dataiku.com/email-llm-demo?utm_campaign=GLO+CONTENT+ChatGPT+%26+LLMs+March+2023&utm_medium=email&_hsmi=260388734&_hsenc=p2ANqtz-9Pr_dfkoaZufRgm3jgYC9oYxUUz66dNBYkpZl810Obz32bu7hY7ihY726mj6TdRF-OgyIYvDkEUtTe9OKn_RcxnrnhTQ&utm_content=260390385&utm_source=hs_email)
-to see what more you can do with the chatgpt plugin in dataiku.
+to see what what more you can do with the chatgpt plugin in dataiku.
 
 Now, try on your own some of the other recipes that we haven't used.
