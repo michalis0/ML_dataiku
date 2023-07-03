@@ -2,7 +2,7 @@
 
 Prof. [Michalis Vlachos](https://people.unil.ch/michalisvlachos/) and  Alexis Erne
 
-This material was prepared for a 5-day course on Machine Learning at the [ISM University of Management and Economics](https://www.ism.lt/en/) in June 2023.
+This material was prepared for a 5-day course on Machine Learning at the [ISM University of Management and Economics](https://www.ism.lt/en/) in June 2023. Educators are welcome to use this material. Just send me an email how you used this content.
 
 <img width="800" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/1badbcd0-ed0e-48bd-9fac-2e7e2879d2e1">
 
