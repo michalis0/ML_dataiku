@@ -86,7 +86,7 @@ and also to try dimensionality reduction, eg PCA. This usually helps the cluster
 ----
 #### IN-CLASS EXERCISE
 -----
-I will provide you with students' grades in the Teams channel. Use kMeans clustering to cluster it in 10 clusters (k=10), so that you assign grades of (6, 5.5, 5 .. ). After the clustering is finished, double-click on the algorithm name on the left to see a view of the clustering under scatterplot. You should see something like this:
+Download this [file](./student_grades_final.csv) with students' grades. Use kMeans clustering to cluster it in 10 clusters (k=10), so that you assign grades of (6, 5.5, 5 .. ). After the clustering is finished, double-click on the algorithm name on the left to see a view of the clustering under scatterplot. You should see something like this:
 
 <img width="1284" alt="image" src="https://github.com/michalis0/ML_dataiku/assets/28807066/d13ec9ea-410f-44fd-baee-2d0171593390">
 
